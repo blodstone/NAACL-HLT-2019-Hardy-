@@ -17,7 +17,7 @@
 \usepackage{latexsym}
 
 \usepackage{url}
-
+\hbadness=99999
 %\aclfinalcopy % Uncomment this line for the final submission
 %\def\aclpaperid{***} %  Enter the acl Paper ID here
 
@@ -29,7 +29,7 @@
 
 \newcommand\BibTeX{B{\sc ib}\TeX}
 
-\title{Instructions for NAACL-HLT }
+\title{Towards Standardized Manual Evaluation for Single Document Automatic Summarization}
 
 \author{First Author \\
   Affiliation / Address line 1 \\
@@ -47,67 +47,36 @@
 \begin{document}
 \maketitle
 \begin{abstract}
-  This document contains the instructions for preparing a camera-ready
-  manuscript for the proceedings of NAACL-HLT 2019. The document itself
-  conforms to its own specifications, and is therefore an example of
-  what your manuscript should look like. These instructions should be
-  used for both papers submitted for review and for final versions of
-  accepted papers.  Authors are asked to conform to all the directions
-  reported in this document.
+Having a good summary evaluation approach is important for automatic summarization field, however, in automatic summarization community there is still no consensus in manual evaluation practice. This difficult situation is coupled with the release of recent large newswire dataset for single document summarization that are characterized by only having a single reference summary per document raise an issue of reference bias for common practice in automatic evaluation such as ROUGE. In this paper, we present Summ-Eval, a manual evaluation toolkit and practice for single document summarization which: (1) provides a means of getting comparable and reusable results, (2) provides evaluation criteria and validation scheme, (3) resolves the reference bias, and (4) is accessible for non-expert evaluators 
 \end{abstract}
-
+% \citep{Sandhaus2008, Hermann2015, Shashi2018}
 \section{Introduction}
 
-The following instructions are directed to authors of papers submitted
-to NAACL-HLT 2019 or accepted for publication in its proceedings. All
-authors are required to adhere to these specifications. Authors are
-required to provide a Portable Document Format (PDF) version of their
-papers. \textbf{The proceedings are designed for printing on A4
-paper.}
+Research in automatic summarization has made headway over the years with single document summarization as the front-runner due to the availability of large datasets. Many single document summarization researches \citep{See2017, Kryscinski2018, Shashi2018} are aiming to produce the highest quality of summary indicated by its capability to capture all the important content of the document while still maintain sentence fluency and clarity. Hence, having a good summary evaluation approach is important for the field as it provides a means to rank different systems.  
 
+ROUGE \citep{Lin2004} for automatic evaluation has seen a wide adoption, but recent releases of newswire dataset such as NY Times \citep{Sandhaus2008}, CNN/Daily Mail \citep{Hermann2015}, and XSum \citep{Shashi2018} are characterized by only having a single reference summary per document which makes ROUGE becomes less accurate due to reference bias \citep{Louis2013}. As such, to get a reliable assessment a manual evaluation is needed. However, there is still no consensus in manual evaluation practice yet in automatic summarization field, whereas the machine translation have already adopted practice and toolkit for manual evaluation like Appraise \citep{Federmann2012}. Consequently, many researches report manual evaluation results that are often non-reusable for subsequent researches due to the lack of transparency (e.g. evaluation prompts and setup), and the inherent nature of the evaluation process (e.g. paired comparison and best-worst scaling). This cause many researches have to keep repeating evaluating the same systems which is a laborious and costly task. Other prevailing issues are differing views on evaluation criteria and validation scheme, reference bias, and access to expert evaluators. 
+
+As of current state of manual evaluation, 
+
+To show how different each of the manual evaluation, we look into recent practices in a single document summarization field. We divided all these approaches into three category: ranking scheme, subject of comparison, and method. 
+
+Based on ranking scheme there are three approaches: rating scale \citep{Likert1932} used by \citet{Kryscinski2018}, paired comparison \citep{Thurstone1994} used by \citet{Fan2018, Celikyilmaz2018}; and best-worst scaling \citep{Woodworth1991} used by \citet{Shashi2018}. Then based on subject of comparison, there are head-to-head comparison between system and reference summary \citep{Celikyilmaz2018} and ground truth comparison using the document directly \citep{Shashi2018, Kryscinski2018}. Finally there are also different method in evaluating, for example question-answering method \citep{Clarke2010, Shashi2018}. In addition to that, some researches \citep{Nallapati2016a, See2017, Gehrmann2018} did not employ manual evaluation but instead opt to do qualitative analysis directly on the system summary.
+
+To resolve all the aforementioned issues, we present a toolkit as well as a standardized practice for manual evaluation in single document summarization, \textit{Summ-Eval}: a manual evaluation toolkit and practice which: (1) provides a means of getting comparable and reusable results, (2) provide evaluation criteria and validation scheme, (3) resolves the reference bias, and (4) is accessible for non-expert evaluators.
+
+\section{Related Works}
+Test
 
 \section*{Acknowledgments}
 
 The acknowledgments should go immediately before the references.  Do
 not number the acknowledgments section. Do not include this section
-when submitting your paper for review. \\
+when submitting your paper for review.
 
-\noindent {\bf Preparing References:} \\
-Include your own bib file like this:
-\verb|\bibliographystyle{acl_natbib}|
-\verb|\bibliography{naaclhlt2019}| 
-
-where \verb|naaclhlt2019| corresponds to a naaclhlt2019.bib file.
 \bibliography{naaclhlt2019}
 \bibliographystyle{acl_natbib}
 
 \appendix
-
-\section{Appendices}
-\label{sec:appendix}
-Appendices are material that can be read, and include lemmas, formulas, proofs, and tables that are not critical to the reading and understanding of the paper. 
-Appendices should be {\bf uploaded as supplementary material} when submitting the paper for review. Upon acceptance, the appendices come after the references, as shown here. Use
-\verb|\appendix| before any appendix section to switch the section
-numbering over to letters.
-
-
-\section{Supplemental Material}
-\label{sec:supplemental}
-Submissions may include non-readable supplementary material used in the work and described in the paper. Any accompanying software and/or data should include licenses and documentation of research review as appropriate. Supplementary material may report preprocessing decisions, model parameters, and other details necessary for the replication of the experiments reported in the paper. Seemingly small preprocessing decisions can sometimes make a large difference in performance, so it is crucial to record such decisions to precisely characterize state-of-the-art methods. 
-
-Nonetheless, supplementary material should be supplementary (rather
-than central) to the paper. {\bf Submissions that misuse the supplementary 
-material may be rejected without review.}
-Supplementary material may include explanations or details
-of proofs or derivations that do not fit into the paper, lists of
-features or feature templates, sample inputs and outputs for a system,
-pseudo-code or source code, and data. (Source code and data should
-be separate uploads, rather than part of the paper).
-
-The paper should not rely on the supplementary material: while the paper
-may refer to and cite the supplementary material and the supplementary material will be available to the
-reviewers, they will not be asked to review the
-supplementary material.
 
 
 \end{document}

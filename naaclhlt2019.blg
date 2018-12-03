@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: naaclhlt2019.aux
+The style file: acl_natbib.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: naaclhlt2019.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty journal in Celikyilmaz2018
+Warning--empty journal in Fan2018
+Warning--empty journal in Gehrmann2018
+Warning--empty journal in Kryscinski2018
+Warning--there's a number but no volume in Lin2004
+Warning--empty booktitle in Shashi2018
+You've used 16 entries,
+            3571 wiz_defined-function locations,
+            814 strings with 8893 characters,
+and the built_in function-call counts, 10480 in all, are:
+= -- 894
+> -- 469
+< -- 11
++ -- 145
+- -- 129
+* -- 687
+:= -- 1622
+add.period$ -- 59
+call.type$ -- 16
+change.case$ -- 127
+chr.to.int$ -- 16
+cite$ -- 22
+duplicate$ -- 700
+empty$ -- 775
+format.name$ -- 173
+if$ -- 2285
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 137
+newline$ -- 79
+num.names$ -- 64
+pop$ -- 334
+preamble$ -- 1
+purify$ -- 107
+quote$ -- 0
+skip$ -- 526
+stack$ -- 0
+substring$ -- 361
+swap$ -- 330
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 144
+warning$ -- 6
+while$ -- 65
+width$ -- 0
+write$ -- 191
+(There were 6 warnings)
