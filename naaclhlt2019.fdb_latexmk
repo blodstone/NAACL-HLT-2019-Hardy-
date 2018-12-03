@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex naaclhlt2019"] 1543794952 "naaclhlt2019.aux" "naaclhlt2019.bbl" "naaclhlt2019" 1543795242
+["bibtex naaclhlt2019"] 1543796074 "naaclhlt2019.aux" "naaclhlt2019.bbl" "naaclhlt2019" 1543796075
   "./acl_natbib.bst" 1543742745 47585 c671f071a8f3957857acb307a7173505 ""
-  "naaclhlt2019.aux" 1543795242 2366 f0be374d33037f4ec523665075e3755e ""
+  "naaclhlt2019.aux" 1543796075 2366 f0be374d33037f4ec523665075e3755e ""
   "naaclhlt2019.bcf" 0 -1 0 ""
-  "naaclhlt2019.bib" 1543793402 20370 badf975287ee460425503e73e1937b38 ""
+  "naaclhlt2019.bib" 1543795531 20919 a7ec5c2bb86a88dce961c57f1aea59fe ""
   (generated)
   "naaclhlt2019.blg"
   "naaclhlt2019.bbl"
-["pdflatex"] 1543795242 "/home/acp16hh/Projects/Research/Experiments/Exp_Elly_Human_Evaluation/Paper/NAACL-HLT-2019-Hardy-/naaclhlt2019.tex" "naaclhlt2019.pdf" "naaclhlt2019" 1543795242
+["pdflatex"] 1543796074 "/home/acp16hh/Projects/Research/Experiments/Exp_Elly_Human_Evaluation/Paper/NAACL-HLT-2019-Hardy-/naaclhlt2019.tex" "naaclhlt2019.pdf" "naaclhlt2019" 1543796075
   "/etc/texmf/web2c/texmf.cnf" 1532608274 1101 af7716885e081ab43982cab7b4672c1a ""
-  "/home/acp16hh/Projects/Research/Experiments/Exp_Elly_Human_Evaluation/Paper/NAACL-HLT-2019-Hardy-/naaclhlt2019.tex" 1543795242 6020 4c4b6c263346aa8cc8cb80a7e3e9d3b6 ""
+  "/home/acp16hh/Projects/Research/Experiments/Exp_Elly_Human_Evaluation/Paper/NAACL-HLT-2019-Hardy-/naaclhlt2019.tex" 1543796074 5976 4a29373000d98690ee60dbd746e9d7d9 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvb.tfm" 1136768653 2300 14616918391efa49ac8b481a75fbdc1a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1136768653 4484 b828043cbd581d289d955903c1339981 ""
@@ -72,13 +72,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1532608275 123607 3e451b906958a99389931362e46d5604 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1539341177 718488 0245d3dcbaf68ef57088e7f04fc26076 ""
-  "naaclhlt2019.aux" 1543795242 2366 f0be374d33037f4ec523665075e3755e ""
-  "naaclhlt2019.bbl" 1543794952 4431 ad94fdb595646c9a9bce7ebda599310a "bibtex naaclhlt2019"
-  "naaclhlt2019.out" 1543795242 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "naaclhlt2019.aux" 1543796075 2366 f0be374d33037f4ec523665075e3755e ""
+  "naaclhlt2019.bbl" 1543796074 5046 2ed10f86f643670ac2ba5ddc9631c0b8 "bibtex naaclhlt2019"
+  "naaclhlt2019.out" 1543796075 0 d41d8cd98f00b204e9800998ecf8427e ""
   "naaclhlt2019.sty" 1543742745 21690 994f3d4c32baa3bf32582311353e73ee ""
-  "naaclhlt2019.tex" 1543795242 6020 4c4b6c263346aa8cc8cb80a7e3e9d3b6 ""
+  "naaclhlt2019.tex" 1543796074 5976 4a29373000d98690ee60dbd746e9d7d9 ""
   (generated)
-  "naaclhlt2019.out"
-  "naaclhlt2019.aux"
-  "naaclhlt2019.log"
   "naaclhlt2019.pdf"
+  "naaclhlt2019.aux"
+  "naaclhlt2019.out"
+  "naaclhlt2019.log"

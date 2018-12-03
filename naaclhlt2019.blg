@@ -8,51 +8,46 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: naaclhlt2019.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Warning--empty journal in Celikyilmaz2018
-Warning--empty journal in Fan2018
-Warning--empty journal in Gehrmann2018
-Warning--empty journal in Kryscinski2018
 Warning--there's a number but no volume in Lin2004
-Warning--empty booktitle in Shashi2018
 You've used 16 entries,
             3571 wiz_defined-function locations,
-            814 strings with 8893 characters,
-and the built_in function-call counts, 10480 in all, are:
-= -- 894
-> -- 469
+            819 strings with 9218 characters,
+and the built_in function-call counts, 10837 in all, are:
+= -- 936
+> -- 465
 < -- 11
 + -- 145
 - -- 129
-* -- 687
-:= -- 1622
-add.period$ -- 59
+* -- 702
+:= -- 1652
+add.period$ -- 63
 call.type$ -- 16
-change.case$ -- 127
+change.case$ -- 137
 chr.to.int$ -- 16
-cite$ -- 22
-duplicate$ -- 700
-empty$ -- 775
+cite$ -- 17
+duplicate$ -- 734
+empty$ -- 825
 format.name$ -- 173
-if$ -- 2285
+if$ -- 2377
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 137
-newline$ -- 79
+missing$ -- 147
+newline$ -- 83
 num.names$ -- 64
-pop$ -- 334
+pop$ -- 348
 preamble$ -- 1
 purify$ -- 107
 quote$ -- 0
-skip$ -- 526
+skip$ -- 523
 stack$ -- 0
-substring$ -- 361
-swap$ -- 330
+substring$ -- 386
+swap$ -- 362
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 144
-warning$ -- 6
-while$ -- 65
+warning$ -- 1
+while$ -- 67
 width$ -- 0
-write$ -- 191
-(There were 6 warnings)
+write$ -- 201
+(There was 1 warning)
