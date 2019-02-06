@@ -15,6 +15,8 @@
 \usepackage[hyperref]{naaclhlt2019}
 \usepackage{times}
 \usepackage{latexsym}
+\usepackage{amssymb}
+\usepackage{amsmath}
 %\usepackage[draft]{hyperref}
 \usepackage{url}
 \hbadness=99999
@@ -29,6 +31,7 @@
 
 \newcommand\BibTeX{B{\sc ib}\TeX}
 \newcommand\shashi[1]{{\textcolor{blue}{#1}}}
+\newcommand\hardy[1]{{\textcolor{magenta}{#1}}}
 
 %\title{Towards Standardized Manual Evaluation for Document Summarization}
 % Towards Standardized Manual Evaluation for Single Document Automatic Summarization
@@ -63,26 +66,139 @@ Automatic summarization research has made substantial progress thanks to novel m
 \end{abstract}
 % \citep{Sandhaus2008, Hermann2015, Shashi2018}
 \section{Introduction}
+\citep{See2017}
+% Research in automatic summarization has made headway over the years with single document summarization as the front-runner due to the availability of large datasets. Single document summarization methods \citep{See2017, Kryscinski2018, Shashi2018} aim to produce the highest quality of summary indicated by its capability to capture all the important content of the document while still maintain sentence fluency and clarity. Hence, having %a well-specified summary 
+% an evaluation that can be consistently applied to assess all aspects of a good summary is important for the community as it provides means to measure progress. %rank different systems.  
 
-Research in automatic summarization has made headway over the years with single document summarization as the front-runner due to the availability of large datasets. Single document summarization methods \citep{See2017, Kryscinski2018, Shashi2018} aim to produce the highest quality of summary indicated by its capability to capture all the important content of the document while still maintain sentence fluency and clarity. Hence, having %a well-specified summary 
-an evaluation that can be consistently applied to assess all aspects of a good summary is important for the community as it provides means to measure progress. %rank different systems.  
+% % AV: ROUGE is the most popular consistently used, but it is automatic not manual and we know that it can be misleading. Furthermore, recently proposed datasets have a single reference per document, which renders ROUGE less accurate.
+% ROUGE \citep{Lin2004} for automatic evaluation has seen a wide adoption, but recent releases of newswire dataset such as NY Times \citep{Sandhaus2008}, CNN/Daily Mail \citep{Hermann2015}, and XSum \citep{Shashi2018} are characterized by only having a single reference summary per document which makes ROUGE becomes less accurate due to reference bias \citep{Louis2013}. 
 
-% AV: ROUGE is the most popular consistently used, but it is automatic not manual and we know that it can be misleading. Furthermore, recently proposed datasets have a single reference per document, which renders ROUGE less accurate.
-ROUGE \citep{Lin2004} for automatic evaluation has seen a wide adoption, but recent releases of newswire dataset such as NY Times \citep{Sandhaus2008}, CNN/Daily Mail \citep{Hermann2015}, and XSum \citep{Shashi2018} are characterized by only having a single reference summary per document which makes ROUGE becomes less accurate due to reference bias \citep{Louis2013}. 
+% As such, to get a reliable assessment a manual evaluation is needed. However, there is still no consensus on manual evaluation practice yet, unlike other fields like machine translation which have adopted practice and toolkit for manual evaluation like Appraise \citep{Federmann2012}. %AV: which are used in WMT since....
+% Consequently, many researches report manual evaluation results that are often non-reusable for subsequent researches due to the lack of transparency (e.g. evaluation prompts and setup), and the inherent nature of the evaluation process (e.g. paired comparison and best-worst scaling). This lead to fragmented and many repeated system evaluation run that is laborious and costly. Other prevailing issues are differing views on evaluation criteria and validation scheme, reference bias, and access to expert evaluators (necessary for Pyramid method \citep{Nenkova2004}). 
 
-As such, to get a reliable assessment a manual evaluation is needed. However, there is still no consensus on manual evaluation practice yet, unlike other fields like machine translation which have adopted practice and toolkit for manual evaluation like Appraise \citep{Federmann2012}. %AV: which are used in WMT since....
-Consequently, many researches report manual evaluation results that are often non-reusable for subsequent researches due to the lack of transparency (e.g. evaluation prompts and setup), and the inherent nature of the evaluation process (e.g. paired comparison and best-worst scaling). This lead to fragmented and many repeated system evaluation run that is laborious and costly. Other prevailing issues are differing views on evaluation criteria and validation scheme, reference bias, and access to expert evaluators (necessary for Pyramid method \citep{Nenkova2004}). 
+% To show how different each of the manual evaluation, we look into recent practices in a single document summarization field. We divided all these approaches into three categories: ranking scheme, subject of comparison, and method. 
 
-To show how different each of the manual evaluation, we look into recent practices in a single document summarization field. We divided all these approaches into three categories: ranking scheme, subject of comparison, and method. 
+% Based on ranking scheme there are three approaches: rating scale \citep{Likert1932} used by \citet{Kryscinski2018}, paired comparison \citep{Thurstone1994} used by \citet{Fan2018, Celikyilmaz2018}; and best-worst scaling \citep{Woodworth1991} used by \citet{Shashi2018}. Then based on subject of comparison, there are head-to-head comparison between system and reference summary \citep{Celikyilmaz2018} and ground truth comparison using the document directly \citep{Shashi2018, Kryscinski2018}. Finally there are also different method in evaluating, for example question-answering method \citep{Clarke2010, Shashi2018}. In addition to that, several researches \citep{Nallapati2016a, See2017, Gehrmann2018} did not employ manual evaluation but instead opted to do qualitative analysis directly on the system summary.
 
-Based on ranking scheme there are three approaches: rating scale \citep{Likert1932} used by \citet{Kryscinski2018}, paired comparison \citep{Thurstone1994} used by \citet{Fan2018, Celikyilmaz2018}; and best-worst scaling \citep{Woodworth1991} used by \citet{Shashi2018}. Then based on subject of comparison, there are head-to-head comparison between system and reference summary \citep{Celikyilmaz2018} and ground truth comparison using the document directly \citep{Shashi2018, Kryscinski2018}. Finally there are also different method in evaluating, for example question-answering method \citep{Clarke2010, Shashi2018}. In addition to that, several researches \citep{Nallapati2016a, See2017, Gehrmann2018} did not employ manual evaluation but instead opted to do qualitative analysis directly on the system summary.
-
-In this paper, we present a toolkit and practice for manual evaluation in single document summarization, \textit{Summ-Eval}: a manual evaluation toolkit and practice which: (1) provides a means of getting comparable and reusable results, (2) provide evaluation criteria and validation scheme, (3) resolves the reference bias, and (4) is accessible for non-expert evaluators.
+% In this paper, we present a toolkit and practice for manual evaluation in single document summarization, \textit{Summ-Eval}: a manual evaluation toolkit and practice which: (1) provides a means of getting comparable and reusable results, (2) provide evaluation criteria and validation scheme, (3) resolves the reference bias, and (4) is accessible for non-expert evaluators.
 
 % \shashi{How is it different from Pyramid: annotates generated summaries, expert annotators?}
 
 %\section{Related Works}
 %Test
+\subsection{Recall Formula 1}
+
+This is a straightaway recall formulation where we measure the interpolated recall of the summary for each highlight and then take the average recall of all highlights as the final result. 
+
+One problem of this approach is the possibility of zero denominator caused by the zero count of the total $n$-grams in a highlight. To solve this, one easy way is to filter out all highlights that have denominator less than 1 as shown in Eq. \ref{eq:highlight_recall}.
+
+We first calculate the recall, $R_h$, of $n$-gram separately for each highlight, $h$, in the document that contains fragments, $f$. 
+\begin{equation}
+\label{eq:highligt_recall_gram}
+    R_h (n) = \frac{\displaystyle\sum_{f \in \text{h}}\sum_{\text{g}\in\text{f}} \text{count}_\text{match}(g_n)}{\displaystyle\sum_{f \in \text{h}}\sum_{\text{g}\in\text{f}} \text{count}(g_n)}
+\end{equation}
+
+
+We then interpolate $R_h$ from unigram to $n$-gram with weights, $1/\beta$ to get each highlight's recall.
+
+\begin{equation}
+\label{eq:highlight_recall}
+\begin{split}
+    \text{Recall}_h &= \displaystyle\sum_{i} 1/\beta \, \text{log}\, R_h (i), \, \text{for}\, i \in \mathbb{B} \\
+    \text{where:} & \\
+    &\, \mathbb{B} = \{n | \displaystyle\sum_{f \in \text{h}}\sum_{\text{g}\in\text{f}} \text{count}(g_n) > 0, n \in \mathbb{Z} \}\\
+    &\, \beta = |\mathbb{B}|
+\end{split}
+\end{equation}
+
+The final recall of one document is the average of its highlights, $\textbf{h}$.
+
+\begin{equation}
+    \text{Recall} = \text{exp}(\frac{1}{|\textbf{h}|}\displaystyle\sum_{h \in \textbf{h}} \text{Recall}_h)
+\end{equation}
+
+An example is provided using a short document of one sentence: \textit{``the quick brown fox jumps over the lazy dog''} with its accompanying summary: \textit{``fox jumps over a dog''}. 
+
+The two highlights provided for the document are: $\{(\text{``brown''}, \text{``fox''}, \text{``jumps''}, \text{``lazy''}$, $ \text{``dog''}), (\text{``brown fox''}, \text{``jumps over''}, \text{``dog''})\}$.
+
+Using equation \ref{eq:highligt_recall_gram}, the recall for the unigram of the first highlight is:
+\begin{equation}
+    R_h(1) = \frac{3}{5}
+\end{equation}
+
+There is no bigram available for the first highlight therefore the recall for the first highlight is the log of the unigram recall which is -0.51.
+
+For the second highlight, the recall for the unigram and bigram are respectively:
+\begin{equation}
+    \begin{split}
+        R_h(1) &= \frac{4}{5}\\
+        R_h(2) &= \frac{1}{2}
+    \end{split}
+\end{equation}
+
+The recall for the second highlight is the means of unigram and bigram's recalls which is -0.19. 
+
+The final recall of the summary is the exponentiation of the means of the first and second highlights recall which is 0.70.
+
+
+\subsection{Recall Formula 2}
+
+The formulation is using a weighted mechanism where we consider the weight which is the count of highlight over each gram in the document. 
+
+\begin{equation}
+    R_d(n) = \frac{\displaystyle\sum_{g \in d} \beta(g_n)\, \text{count}_{\text{match}}(g_n)}{\displaystyle\sum_{g \in d} \beta(g_n)\,\text{count}(g_n)}
+\end{equation}
+
+where $\beta$ denotes the mapping of $g_n$ to the number of highlight over it.
+
+The final recall is:
+
+\begin{equation}
+    \text{Recall} = \frac{1}{n}\displaystyle\sum_{i}^{n} \text{Recall}_d(n)
+\end{equation}
+
+Following the previous example. For this formulation, we obtained $\beta$ for unigram (e.g.: $\beta(\text{``brown''})$ = 2, $\beta(\text{``fox''})$ = 2) and bigram (e.g.: $\beta(\text{``brown'',``fox'',})$ = 1)).
+
+With the $\beta$ which is a function to the gram count, we can calculate the recall for the unigram and the bigram.
+
+\begin{equation}
+    \begin{split}
+        R_d(1) &= \frac{6}{8} \\
+        R_d(2) &= \frac{1}{2}
+    \end{split}
+\end{equation}
+
+And for the final recall we averaged the unigram and bigram to obtain the final result of 0.625.
+
+\subsection{Recall Formula 2 - Improved}
+
+The formulation is using a weighted mechanism where we consider the weight which is the "normalized" count of highlights over each gram in the document. This is similar to the original ROUGE score, but we introduce the weights for each n-gram. 
+
+Given a document $\mathcal{D}$ as a sequence of $m$ tokens $\{w_1, \ldots, w_m\}$, annotated with $\mathcal{N}$ highlights, we define a weight $\beta_g^n \in [0,1]$ for an $n$-gram $g$ as: 
+
+\begin{equation}
+    \beta_g^n = \frac{\displaystyle\sum_{i=1}^{m-(n-1)} \Bigg[\frac{\sum_{j=i}^{i+n-1} \frac{\mathrm{NumH}(w_j)}{\mathcal{N}}}{n}\Bigg]_{w_{i:i+n-1} == g}}{\displaystyle\sum_{i=1}^{m-(n-1)} [1]_{w_{i:i+n-1} == g} }
+\end{equation}
+
+% \beta_g^1 = \frac{\sum_{i=1}^n [\frac{\mathrm{NumH}(w_{i:i})}{\mathcal{N}}]_{w_{i:i} == g}}{\sum_{i=1}^n [1]_{w_{i:i} == g} }
+
+\noindent where, $\mathrm{NumH}(w_j)$ is a functions which returns the number of times word $w_j$ is highlighted by the annotators out of $\mathcal{N}$ times \hardy{weighted by the length of each highlight} as follows:
+
+\begin{equation}
+    \operatorname{NumH}(w_j) = \displaystyle\sum_{k=1}^{\mathcal{N}} \frac{\operatorname{lenH_k}}{\mathrm{maxLen}} 1_{H_k(w_j)}
+\end{equation}
+
+\noindent \hardy{where $1_{H_k(w_j)}$ is an indicator function whether a word $w_j$ is part of the highlight set, $H_k$, $\mathrm{maxLen}$ is the maximum allowed highlight length that is set as 30 in our experiment, and $\operatorname{lenH_k}$ is the length of the highlight, $H_k$}. 
+
+Note that the weight for each $n$-gram is estimated using the highlights of each word within it, as such it ignore the highlighting styles: highlighting the whole sentence vs highlighting words. \shashi{Not sure if it is a good thing? Otherwise we have to consider all possible small $n$-grams within an $n$-gram and normalize over them.} The modified ROUGE scores for generating a summary $\mathcal{S}$ can be defined as:
+
+\begin{align}
+    R_{\mathrm{rec}}^n &= \frac{\displaystyle\sum_{g \in n\operatorname{-gram}(\mathcal{S})} \beta_g^n\, \text{count}_{\text{match}}(g)}{\displaystyle\sum_{g \in n\operatorname{-gram}(\mathcal{D})} \beta_g^n\,\text{count}(g)} \\
+    R_{\mathrm{pre}}^n &= \frac{\displaystyle\sum_{g \in n\operatorname{-gram}(\mathcal{S})} \beta_g^n\, \text{count}_{\text{match}}(g)}{\displaystyle\sum_{g \in n\operatorname{-gram}(\mathcal{S})} \beta_g^n\,\text{count}'(g)}
+\end{align}
+
+\noindent $R_{\mathrm{rec}}^n$ and $R_{\mathrm{pre}}^n$ are weighted ROUGE recall and precision scores; $\text{count}_{\text{match}}(g)$ is the maximum number of $n$-gram $g$ co-occurring in the candidate summary $\mathcal{S}$ and the document $\mathcal{D}$; $\text{count}(g)$ is the number of times $g$ occurs in $\mathcal{D}$; and $\text{count}'(g)$ is the number of times $g$ occurs in $\mathcal{S}$.
+
 
 %\section*{Acknowledgments}
 %The acknowledgments should go immediately before the references.  Do not number the acknowledgments section. Do not include this section when submitting your paper for review.
