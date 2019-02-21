@@ -51,8 +51,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
-INPUT /home/acp16hh/texmf/tex/latex/etoolbox/etoolbox.sty
-INPUT /home/acp16hh/texmf/tex/latex/etoolbox/etoolbox.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
@@ -103,9 +103,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm
 INPUT /home/acp16hh/Projects/Research/Experiments/Exp_Elly_Human_Evaluation/Paper/ACL-2019-Hardy-/acl2019.bbl
 INPUT /home/acp16hh/Projects/Research/Experiments/Exp_Elly_Human_Evaluation/Paper/ACL-2019-Hardy-/acl2019.bbl
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/latex-fonts/lasy7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/latex-fonts/lasy5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
@@ -123,9 +123,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/courier/pcrr7t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm
 INPUT /home/acp16hh/Projects/Research/Experiments/Exp_Elly_Human_Evaluation/Paper/ACL-2019-Hardy-/acl2019.aux
 INPUT /home/acp16hh/Projects/Research/Experiments/Exp_Elly_Human_Evaluation/Paper/ACL-2019-Hardy-/acl2019.out
 INPUT /home/acp16hh/Projects/Research/Experiments/Exp_Elly_Human_Evaluation/Paper/ACL-2019-Hardy-/acl2019.out

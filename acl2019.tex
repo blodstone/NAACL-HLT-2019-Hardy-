@@ -47,25 +47,14 @@
 \begin{document}
 \maketitle
 \begin{abstract}
-  Automatic summarization research has made substantial progress thanks to novel methods and datasets. 
+  % Automatic summarization research has made substantial progress thanks to novel methods and datasets. Manual evaluation approaches so far either ignore content and focus on fluency, or require expert annotators but nevertheless suffer from low inter-annotator agreement due to the complexity of the task. In the few cases where the contents of the summary are evaluated, the evaluation is biased due to using a single reference summary, which results in different summaries of equal quality being rated according to their similarity to the reference. In this paper, we propose a Highlight-bAsed Evaluation of Single document Summarization (HArnESS). Our proposal assesses summaries against the original document, facilitated through manually highlighted salient content which can be reused in future studies. Furthermore it does not require expert annotators, avoids reference bias and provides absolute instead of ranked evaluation of systems.
+  Automatic summarization research has made substantial progress thanks to novel methods and datasets. However, a well-accepted manual evaluation for content such as Pyramid requires expert annotation which is often not available for many datasets. As such, current practices choose to assess the content by directly comparing the summary against the original document or a reference summary. Our finding found that these practices are not suitable for long document or dataset that only provides a single reference summary per document as these cases are often result in scores that have high variability between judges' assesment due to bias. We propose a Highlight-bAsed Evaluation of Single document Summarization (HArnESS) that provide assesment of a summary against the original document, facilitated through manually highlighted salient content which lower the coefficient of variability of judges' assesment and is reuseable in future studies. Furthermore it does not require expert annotators, avoids reference bias and provides absolute instead of ranked evaluation of systems.
   
-  Manual evaluation approaches so far either ignore content and focus on fluency, or require expert annotators but nevertheless suffer from low inter-annotator agreement due to the complexity of the task. In the few cases where the contents of the summary are evaluated, the evaluation is biased due to using a single reference summary, which results in different summaries of equal quality being rated according to their similarity to the reference. 
-  
-  In this paper, we propose a Highlight-bAsed Evaluation of Single document Summarization (HArnESS). Our proposal assesses summaries against the original document, facilitated through manually highlighted salient content which can be reused in future studies. 
-  
-  Furthermore it does not require expert annotators, avoids reference bias and provides absolute instead of ranked evaluation of systems.
 \end{abstract}
 
-% Paper Structures:
-% - Introduction
-% - Related Work
-% - HArnESS
-% - Result Analysis
 \section{Introduction}
-Automatic summarization research has made headway over the years with single document summarization as the front-runner thanks to novel methods \citep{See2017, Kryscinski2018, Shashi2018} and large datasets \citep{Sandhaus2008, Hermann2015, Shashi2018} and . 
-
-However, these approaches lack a often focus on evaluating contents of summary often require expert annotator e.g. Pyramid \citep{Nenkova2004} but nevertheless suffer from low inter-annotator agreement. 
 \cite{Celikyilmaz2018}
+
 
 \section*{Acknowledgments}
 
