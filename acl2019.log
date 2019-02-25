@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.21)  21 FEB 2019 18:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.4)  25 FEB 2019 13:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -178,8 +178,8 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibsep=\skip46
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count103
-) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+) (/home/acp16hh/texmf/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count104
 )) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
@@ -188,29 +188,42 @@ Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen117
+\Gin@req@width=\dimen118
 ) (/home/acp16hh/Projects/Research/Experiments/Exp_Elly_Human_Evaluation/Paper/ACL-2019-Hardy-/acl2019.aux)
 \openout1 = `acl2019.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 49.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 \AtBeginShipoutBox=\box28
-Package hyperref Info: Link coloring ON on input line 47.
+Package hyperref Info: Link coloring ON on input line 49.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -218,9 +231,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count105
 )
-LaTeX Info: Redefining \ref on input line 47.
-LaTeX Info: Redefining \pageref on input line 47.
-LaTeX Info: Redefining \nameref on input line 47.
+LaTeX Info: Redefining \ref on input line 49.
+LaTeX Info: Redefining \pageref on input line 49.
+LaTeX Info: Redefining \nameref on input line 49.
  (/home/acp16hh/Projects/Research/Experiments/Exp_Elly_Human_Evaluation/Paper/ACL-2019-Hardy-/acl2019.out) (/home/acp16hh/Projects/Research/Experiments/Exp_Elly_Human_Evaluation/Paper/ACL-2019-Hardy-/acl2019.out)
 \@outlinefile=\write3
 \openout3 = `acl2019.out'.
@@ -228,97 +241,388 @@ LaTeX Info: Redefining \nameref on input line 47.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count106
-\scratchdimen=\dimen117
+\scratchdimen=\dimen119
 \scratchbox=\box29
 \nofMPsegments=\count107
 \nofMParguments=\count108
 \everyMPshowfont=\toks15
 \MPscratchCnt=\count109
-\MPscratchDim=\dimen118
+\MPscratchDim=\dimen120
 \MPnumerator=\count110
 \makeMPintoPDFobject=\count111
 \everyMPtoPDFconversion=\toks16
-) ABD: EveryShipout initializing macros
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+ (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+)) ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 48.
+(Font)              <12> on input line 50.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 48.
+(Font)              <8> on input line 50.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 48.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 48.
+(Font)              <6> on input line 50.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 50.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
-
-Underfull \hbox (badness 1859) in paragraph at lines 61--64
-\OT1/ptm/m/n/10.95 The ac-knowl-edg-ments should go im-me-di-ately
- []
-
-
-Underfull \hbox (badness 1215) in paragraph at lines 61--64
-\OT1/ptm/m/n/10.95 knowl-edg-ments sec-tion. Do not in-clude this
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--64
-
- []
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 65.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 67.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 65--69
-\OT1/ptm/m/n/10.95 Include your own bib file like this:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--69
-[][]\OT1/pcr/m/n/10.95 \bibliographystyle{acl_natbib}
- []
-
-(/home/acp16hh/Projects/Research/Experiments/Exp_Elly_Human_Evaluation/Paper/ACL-2019-Hardy-/acl2019.bbl)
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 96.
+(Font)              <10.95> on input line 73.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
- [2
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 76.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 76.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 76.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Overfull \hbox (3.10477pt too wide) in paragraph at lines 87--94
+[][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 102.
+[2]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 121.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 145.
+
+
+Overfull \hbox (5.26743pt too wide) in paragraph at lines 152--152
+[]\OT1/ptm/m/n/9 mean| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 152--152
+[]\OT1/ptm/m/n/9 67.90| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 152--152
+[]\OT1/ptm/m/n/9 56.83| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 152--152
+[]\OT1/ptm/m/n/9 55.25| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 152--152
+[]\OT1/ptm/m/n/9 66.01| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 152--152
+[]\OT1/ptm/m/n/9 52.45| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 152--153
+[]\OT1/ptm/m/n/9 50.67| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 153--153
+[]\OT1/ptm/m/n/9 25.36| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 153--153
+[]\OT1/ptm/m/n/9 26.26| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 153--153
+[]\OT1/ptm/m/n/9 25.43| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 153--153
+[]\OT1/ptm/m/n/9 26.36| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 153--153
+[]\OT1/ptm/m/n/9 29.18| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 153--154
+[]\OT1/ptm/m/n/9 25.28| 
+ []
+
+
+Overfull \hbox (5.26743pt too wide) in paragraph at lines 159--159
+[]\OT1/ptm/m/n/9 mean| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 159--159
+[]\OT1/ptm/m/n/9 50.94| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 159--159
+[]\OT1/ptm/m/n/9 44.41| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 159--159
+[]\OT1/ptm/m/n/9 42.17| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 159--159
+[]\OT1/ptm/m/n/9 48.57| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 159--159
+[]\OT1/ptm/m/n/9 39.21| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 159--160
+[]\OT1/ptm/m/n/9 37.80| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 160--160
+[]\OT1/ptm/m/n/9 27.54| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 160--160
+[]\OT1/ptm/m/n/9 30.68| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 160--160
+[]\OT1/ptm/m/n/9 26.28| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 160--160
+[]\OT1/ptm/m/n/9 27.31| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 160--160
+[]\OT1/ptm/m/n/9 30.11| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 160--161
+[]\OT1/ptm/m/n/9 26.84| 
+ []
+
+
+Overfull \hbox (5.26743pt too wide) in paragraph at lines 166--166
+[]\OT1/ptm/m/n/9 mean| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 166--166
+[]\OT1/ptm/m/n/9 57.42| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 166--166
+[]\OT1/ptm/m/n/9 49.95| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 166--166
+[]\OT1/ptm/m/n/9 47.00| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 166--166
+[]\OT1/ptm/m/n/9 52.55| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 166--166
+[]\OT1/ptm/m/n/9 41.04| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 166--167
+[]\OT1/ptm/m/n/9 39.25| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 167--167
+[]\OT1/ptm/m/n/9 29.63| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 167--167
+[]\OT1/ptm/m/n/9 31.23| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 167--167
+[]\OT1/ptm/m/n/9 26.91| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 167--167
+[]\OT1/ptm/m/n/9 27.45| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 167--167
+[]\OT1/ptm/m/n/9 26.18| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 167--168
+[]\OT1/ptm/m/n/9 24.38| 
+ []
+
+<./image/annotator.png, id=102, 462.528pt x 284.05252pt>
+File: ./image/annotator.png Graphic file (type png)
+<use ./image/annotator.png>
+Package pdftex.def Info: ./image/annotator.png  used on input line 184.
+(pdftex.def)             Requested size: 227.62204pt x 139.78941pt.
+
+Overfull \hbox (8.53592pt too wide) in paragraph at lines 184--185
+[][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3]
+Overfull \hbox (1.04004pt too wide) in paragraph at lines 200--200
+[]\OT1/ptm/m/n/9 Guided-
+ []
+
+
+Overfull \hbox (7.04308pt too wide) in paragraph at lines 200--200
+\OT1/ptm/m/n/9 Unguided| 
+ []
+
+
+Overfull \hbox (1.04004pt too wide) in paragraph at lines 205--205
+[]\OT1/ptm/m/n/9 Guided-
+ []
+
+
+Overfull \hbox (7.04308pt too wide) in paragraph at lines 205--205
+\OT1/ptm/m/n/9 Unguided| 
+ []
+
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+
+Overfull \hbox (1.04004pt too wide) in paragraph at lines 248--248
+[]\OT1/ptm/m/n/9 Guided-
+ []
+
+
+Overfull \hbox (7.04308pt too wide) in paragraph at lines 248--248
+\OT1/ptm/m/n/9 Unguided| 
+ []
+
+
+Overfull \hbox (1.04004pt too wide) in paragraph at lines 253--253
+[]\OT1/ptm/m/n/9 Guided-
+ []
+
+
+Overfull \hbox (7.04308pt too wide) in paragraph at lines 253--253
+\OT1/ptm/m/n/9 Unguided| 
+ []
+
+[4 <./image/annotator.png (PNG copy)>] (/home/acp16hh/Projects/Research/Experiments/Exp_Elly_Human_Evaluation/Paper/ACL-2019-Hardy-/acl2019.bbl) [5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 305.
+ [6
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 305.
  (/home/acp16hh/Projects/Research/Experiments/Exp_Elly_Human_Evaluation/Paper/ACL-2019-Hardy-/acl2019.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 305.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 305.
 Package rerunfilecheck Info: File `acl2019.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 305.
  )
 (\end occurred when \iffalse on line 351 was incomplete) 
 Here is how much of TeX's memory you used:
- 7019 strings out of 492982
- 105773 string characters out of 6134896
- 201518 words of memory out of 5000000
- 10535 multiletter control sequences out of 15000+600000
- 20625 words of font info for 48 fonts, out of 8000000 for 9000
+ 7472 strings out of 492982
+ 112723 string characters out of 6134897
+ 221393 words of memory out of 5000000
+ 10904 multiletter control sequences out of 15000+600000
+ 28703 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,10n,40p,1193b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/acp16hh/Projects/Research/Experiments/Exp_Elly_Human_Evaluation/Paper/ACL-2019-Hardy-/acl2019.pdf (2 pages, 66925 bytes).
+ 43i,12n,40p,1102b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /home/acp16hh/Projects/Research/Experiments/Exp_Elly_Human_Evaluation/Paper/ACL-2019-Hardy-/acl2019.pdf (6 pages, 168291 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 277 PDF objects out of 1000 (max. 8388607)
+ 254 compressed objects within 3 object streams
+ 59 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
