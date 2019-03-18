@@ -90,13 +90,8 @@
   
   There has been substantial progress in summarization research enabled by the availability of novel, often large-scale, datasets and recent advances on neural network-based approaches. 
   However, manual evaluation of the system generated summaries is inconsistent due to the difficulty the task poses to human non-expert readers.
-  To address this issue, we propose a novel approach for manual evaluation,  \textsc{High}light-based \textsc{R}eference-less \textsc{E}valuation of document \textsc{S}ummarization (\highres), in which summaries are assessed by multiple annotators against the source document via manually highlighted salient content in the latter. Thus summary assessment on the source document by human judges is facilitated,  while the highlights can be used for evaluating multiple systems.
-  %The judgments obtained by our approach are absolute instead of manual, thus they can be interpreted without reference to other systems.
-  %Furthermore, we consider in our approach the dimension of clarity, that recent work has been conflating with fluency.
-   To validate our approach we employ crowd-workers to augment with highlights a recently proposed dataset and compare two state-of-the-art systems. We demonstrate that \highres{} improves inter-annotator agreement in comparison to using the source document directly, while they help emphasize differences among systems that would be ignored under other evaluation approaches. %Furthermore, we show that fluency and clarity should not be correlated.
- 
-   %while improving the F$_1$ scores of 7.75 and 4.37 points. 
-    %\todo{something concrete that says it does the right thing}.
+  To address this issue, we propose a novel approach for manual evaluation,  \textsc{High}light-based \textsc{R}eference-less \textsc{E}valuation of \textsc{S}ummarization (\highres), in which summaries are assessed by multiple annotators against the source document via manually highlighted salient content in the latter. Thus summary assessment on the source document by human judges is facilitated,  while the highlights can be used for evaluating multiple systems.
+   To validate our approach we employ crowd-workers to augment with highlights a recently proposed dataset and compare two state-of-the-art systems. We demonstrate that \highres{} improves inter-annotator agreement in comparison to using the source document directly, while they help emphasize differences among systems that would be ignored under other evaluation approaches. 
 \end{abstract}
 
 % HighRRes: Highlight-based Reference-less Evaluation of Summarization
@@ -106,7 +101,7 @@
 \section{Introduction}
 
 Research in automatic summarization has made headway over the years with single document summarization as the front-runner due to the availability of large datasets \citep{Sandhaus2008,Hermann2015,narayan18xsum} which has enabled the development of novel methods, many of them employing recent advances in neural networks 
-\citep[\textit{inter alia}]{See2017,Narayan2018,Pasunuru-multireward18}. 
+\citep[\textit{inter alia}]{See2017,Narayan2018,Pasunuru2018a}. 
 
 \begin{figure}[t!]
     \centering
@@ -140,7 +135,7 @@ Finally, \highres\ provides absolute instead of ranked evaluation, thus the asse
 %Highlight-bAsed Evaluation of Single document Summarization (HArnESS) which makes three contributions: 
 %(1) We present a new way to assess a content of summary by comparing it against the original document, facilitated through manually highlighted salient document. (2) We provide a complete manual evaluation framework for evaluating the quality of summary that yields reusable result and does not require expert annotators. (3) We provide a new augmented annotation for XSum dataset.  
 
-To validate our proposed approach we use the recently introduced e\textsc{X}treme \textsc{Sum}marization dataset \citep[\xsum,][]{narayan18xsum} to evaluate two state of the art abstractive summarization methods, Pointer Generator Networks \citep{See2017} and Topic-aware Convolutional Networks \citep{narayan18xsum}, using crowd-sourcing for both highlight annotation and quality judgments.
+To validate our proposed approach we use the recently introduced e\textsc{X}treme \textsc{Sum}marization dataset \citep[\xsum,][]{narayan18xsum} to evaluate two state-of-the-art abstractive summarization methods, Pointer Generator Networks \citep{See2017} and Topic-aware Convolutional Networks \citep{narayan18xsum}, using crowd-sourcing for both highlight annotation and quality judgments.
 %We ensure the reliability of our results by putting sanity checks (detailed more in Section~\ref{sec:highres}) at the end of our annotation and evaluation tasks.
 We demonstrate that \highres{} improves inter-annotator agreement in comparison to using the source document directly, while they help emphasize differences among systems that would be ignored under other evaluation approaches, including reference-based evaluation. Furthermore, we show that the clarity metric from the DUC \citep{dang2005overview} must be measured separately from ``fluency'', as judgments for them had low correlation. %We demonstrate our findings with both quantitative and qualitative analyses.
 Finally, we make the highlighted \xsum\ dataset, codebase to replicate the crowd-sourcing experiments and all other materials produced in our study publicly available.
@@ -174,18 +169,18 @@ Finally, we make the highlighted \xsum\ dataset, codebase to replicate the crowd
 \citet{Chen2018a}     &   &  & $\checkmark$   & & &  $\checkmark$ &  $\checkmark$    &    &  $\checkmark$     &     &    &  $\checkmark$   \\
 
 \citet{Guo2018a}        &   &  &   &  $\checkmark$  & &  &  $\checkmark$    &    &  $\checkmark$     &     &    &  $\checkmark$  \\
-\citet{hardy2018sum}      &   &  &   & $\checkmark$  & &   &     & $\checkmark$  &      &     &    &   \\
+\citet{Hardy2018}      &   &  &   & $\checkmark$  & &   &     & $\checkmark$  &      &     &    &   \\
 \citet{Hsu2018}         &  &  &    &  $\checkmark$  & &  $\checkmark$ &  $\checkmark$    &  $\checkmark$   &      &     &  $\checkmark$   &  \\
 \citet{Krishna2018a}       &   &  &   &  &  &  $\checkmark$ &     &    &  $\checkmark$     &     &  $\checkmark$   &    \\
 \citet{Kryscinski2018}     &   &  &   &  $\checkmark$ & &  $\checkmark$ & &  $\checkmark$   &      &  & $\checkmark$ &   \\
-\citet{Li2018b}         &   &   & $\checkmark$ &  &  &   &     &  $\checkmark$   &      &     &     &    \\
+\citet{Li2018a}         &   &   & $\checkmark$ &  &  &   &     &  $\checkmark$   &      &     &     &    \\
 \citet{narayan-sidenet18}      & &   &    &  $\checkmark$ & &  &     &    & $\checkmark$ &  &  $\checkmark$   &    \\
 \citet{narayan18xsum}          &   &  $\checkmark$ &    &  $\checkmark$ &  &  $\checkmark$ &     &  $\checkmark$  &  $\checkmark$     &   $\checkmark$  &  $\checkmark$   &   \\
 \citet{Narayan2018}       &   & $\checkmark$ &   &  $\checkmark$  & &  $\checkmark$ &     &  $\checkmark$  &  $\checkmark$   &  $\checkmark$   &  $\checkmark$  &   \\
 \citet{Peyrard2018a}     &   &  &   &  &  &  $\checkmark$ &  $\checkmark$    &  $\checkmark$   &      &  $\checkmark$    &    &   \\
 \citet{ShafieiBavani2018}      &  $\checkmark$ &  &    &  &  &  &     &    &      &     &    &  \\
-\citet{Song2018a}       &   &  & $\checkmark$   &  $\checkmark$ &  &  $\checkmark$ &     &  $\checkmark$   &      &     &  $\checkmark$   & \\
-\citet{Yang2018a}       &  &  &    &  &  &  $\checkmark$ &     &    &  $\checkmark$     &  $\checkmark$    &    & \\
+\citet{Song2018}       &   &  & $\checkmark$   &  $\checkmark$ &  &  $\checkmark$ &     &  $\checkmark$   &      &     &  $\checkmark$   & \\
+\citet{Yang2017b}       &  &  &    &  &  &  $\checkmark$ &     &    &  $\checkmark$     &  $\checkmark$    &    & \\
 \highres\ (ours)    &   &  &   & $\checkmark$ & $\checkmark$ & $\checkmark$  &  $\checkmark$   & $\checkmark$  &      &     &  $\checkmark$  &   \\
 \hline
 \end{tabular}
@@ -198,37 +193,36 @@ Finally, we make the highlighted \xsum\ dataset, codebase to replicate the crowd
 
 In recent years, summarization literature has investigated different means of conducting manual evaluation. We study a sample of 26 recent papers from major ACL conferences and outline the trends of manual evaluation in summarization in Table~\ref{tab:litreview}. From 26 papers, 11 papers \citep[e.g.,][]{See2017,Kedzie2018,Cao2018a} did not conduct any manual evaluation, they are not shown in Table~\ref{tab:litreview}.\footnote{A complete table from this study can be found in the supplementary material.}  Following the Document Understanding Conference (DUC) \citep{dang2005overview}, a majority of work has focused on evaluating the content and the linguistic quality of summaries \cite{Nenkova:2005:ATS}. However, there seems to be a lack of consensus on how a summary should be evaluated: (i) Should it be evaluated relative to other summaries or standalone in absolute terms? and (ii) What would be a good source of comparison: the input document or the reference summary? The disagreements on these issues result in authors evaluating their summaries often (11 out of 26 papers) using automatic measures such as ROUGE \cite{Lin2004} despite of its limitations \cite{schluter:2017:EACLshort}. 
 In what follows, we discuss previously proposed %manual evaluation
-approaches along three axes: content and language evaluation, relative vs. absolute, and the choice of reference.
+approaches along three axes: evaluation metrics, relative vs. absolute, and the choice of reference.
 
-\paragraph{Evaluation Matrices}
+\paragraph{Evaluation Metrics}
 Despite differences in the exact definitions,
 the majority \citep[e.g.,][]{Hsu2018,Celikyilmaz2018,narayan18xsum,Chen2018a,Peyrard2018a} agree on both or either one of two broad quality definitions: {\em coverage} determines how much of the salient content of the source document is captured in the summary,
 and {\em informativeness}, 
 how much of the content captured in the summary is salient with regards to the original document.
 These measures correspond to 
 ``\textit{recall}'' and ``\textit{precision}'' metrics respectively in Table~\ref{tab:litreview}, notions that are commonly used in information retrieval and information extraction literature.
-\citet{Clarke2010} proposed a question-answering based approach to improve the agreement among human evaluations for the quality of summary content, which was recently employed by \citet{narayan18xsum} and \citet{Narayan2018} (QA in Table~\ref{tab:litreview}). In this approach,  questions were created first from the reference summary and then the system summaries were judged with regards to whether they enabled humans to answer those questions correctly. \citet{ShafieiBavani2018}, on the other hand, used the ``Pyramid'' method \citep{Nenkova2004} which requires summaries to be annotated by experts for salient information. %Nevertheless, the latter two approaches are prone to reference bias \citep{Louis2013}.
-A small number of work evaluates the "Correctness" \citep{Chen2018a,Li2018b,Chen2018a} of the summary, similar to fact checking \cite{vlachos-riedel:2014:W14-25}, which can be a challenging task in its own right.
+\citet{Clarke2010} proposed a question-answering based approach to improve the agreement among human evaluations for the quality of summary content, which was recently employed by \citet{narayan18xsum} and \citet{Narayan2018} (QA in Table~\ref{tab:litreview}). In this approach,  questions were created first from the reference summary and then the system summaries were judged with regards to whether they enabled humans to answer those questions correctly. \citet{ShafieiBavani2018}, on the other hand, used the ``Pyramid'' method \citep{Nenkova2004a} which requires summaries to be annotated by experts for salient information. %Nevertheless, the latter two approaches are prone to reference bias \citep{Louis2013}.
+A small number of work evaluates the "Correctness" \citep{Chen2018a,Li2018a,Chen2018a} of the summary, similar to fact checking \cite{vlachos-riedel:2014:W14-25}, which can be a challenging task in its own right.
 
-The linguistic quality of a summary encompasses many different qualities such as fluency, grammatically, readability, formatting, naturalness and coherence. Most of recent work uses 
+The linguistic quality of a summary encompasses many different qualities such as fluency, grammatically, readability, formatting, naturalness and coherence. Most recent work uses 
 a single human judgment
-to capture all linguistic qualities of the summary \cite{Hsu2018,Kryscinski2018,narayan18xsum,Song2018a,Guo2018a}; we group them under ``Fluency'' in Table~\ref{tab:litreview} with an exception for the ``Clarity'' which is evaluated in the DUC evaluation campaigns \citet{dang2005overview}. The ``Clarity'' metric put emphasis in easy identification of noun and pronoun phrases in the summary which is a different task compared to ``Fluency'', as such one summary may be fluent but difficult to be understood due to poor clarity. % \footnote{The ``Clarity'' guidance can be seen in }.
+to capture all linguistic qualities of the summary \cite{Hsu2018,Kryscinski2018,narayan18xsum,Song2018,Guo2018a}; we group them under ``Fluency'' in Table~\ref{tab:litreview} with an exception of ``Clarity'' which was evaluated in the DUC evaluation campaigns \citep{dang2005overview}. The ``Clarity'' metric puts emphasis in easy identification of noun and pronoun phrases in the summary which is a different dimension than ``Fluency'', as a summary may be fluent but difficult to be understood due to poor clarity. % \footnote{The ``Clarity'' guidance can be seen in }.
 
 \paragraph{Absolute vs Relative Summary Ranking.} 
 In relative assessment of summarization, 
-annotators are shown two or more summaries and are asked to rank them according to the dimension at question \citep{Yang2018a,Chen2018a,narayan-sidenet18,Guo2018a,Krishna2018a}. The relative assessment is often done using the paired comparison \citep{Thurstone1994} or the best-worst scaling \citep{Woodworth1991,louviere2015best}, to improve inter-annotator agreement. On the other hand,
-absolute assessment of summarization \cite{Li2018b,Song2018a,Kryscinski2018,Hsu2018,hardy2018sum} 
+annotators are shown two or more summaries and are asked to rank them according to the dimension at question \citep{Yang2017b,Chen2018a,narayan-sidenet18,Guo2018a,Krishna2018a}. The relative assessment is often done using the paired comparison \citep{Thurstone1994} or the best-worst scaling \citep{Woodworth1991,Louviere2015}, to improve inter-annotator agreement. On the other hand,
+absolute assessment of summarization \cite{Li2018a,Song2018,Kryscinski2018,Hsu2018,Hardy2018} 
 is often done using the Likert rating scale \citep{Likert1932} where a summary is assessed on a numerical scale. 
 Absolute assessment was also employed in combination with the question answering approach for content evaluation
 \citep{narayan18xsum,Narayan2018}. Both approaches, relative ranking and absolute assessment, have been investigated extensively in Machine Translation \citep{Bojar2016, Bojar2017}. %It has been shown that the 
- Direct assessment correlates highly with the relative assessment without the bias introduced by having a simultaneous assessment of several models \citep{Bojar2011}. %In our study we use the direct assessment of summaries using the  Likert rating scale (1-100).
+ Absolute assessment correlates highly with the relative assessment without the bias introduced by having a simultaneous assessment of several models \citep{Bojar2011}. %In our study we use the direct assessment of summaries using the  Likert rating scale (1-100).
 
 \paragraph{Choice of Reference.} 
 The most convenient
-way to evaluate a system summary is to assess it against the reference summary \citep{Celikyilmaz2018,Yang2018a,Peyrard2018a}, as this typically requires less effort than reading the source document. The question answering approach of \citet{narayan18xsum,Narayan2018} also falls in this category, as the questions were written using the reference summary. However, summarization datasets are limited to a single reference summary per document \citep{Sandhaus2008,Hermann2015,newsroom_N181065,narayan18xsum} thus evaluations using them
+way to evaluate a system summary is to assess it against the reference summary \citep{Celikyilmaz2018,Yang2017b,Peyrard2018a}, as this typically requires less effort than reading the source document. The question answering approach of \citet{narayan18xsum,Narayan2018} also falls in this category, as the questions were written using the reference summary. However, summarization datasets are limited to a single reference summary per document \citep{Sandhaus2008,Hermann2015,newsroom_N181065,narayan18xsum} thus evaluations using them
 %assessing a summary against a single reference summary
-is prone to reference bias \citep{Louis2013}, a known issue in machine translation evaluation too \citep{fomicheva2016reference}. A circumvent this issue is to evaluate it against the source document \citep{Song2018a,narayan-sidenet18,Hsu2018,Kryscinski2018}, asking judges to assess the summary after reading the source document. However this requires more effort and is known to lead to 
-to low inter-annotator agreement \citep{Nenkova2004}. 
+is prone to reference bias \citep{Louis2013}, also a known issue in machine translation evaluation \citep{fomicheva2016reference}. A circumvention for this issue is to evaluate it against the source document \citep{Song2018,narayan-sidenet18,Hsu2018,Kryscinski2018}, asking judges to assess the summary after reading the source document. However this requires more effort and is known to lead to low inter-annotator agreement \citep{Nenkova2004a}. 
 
 
 
@@ -264,10 +258,10 @@ to low inter-annotator agreement \citep{Nenkova2004}.
 
 %AV: Moved here from the literature review
 
-Our novel highlight-based reference-less evaluation does not suffer from reference bias as a summary is assessed against the source document with manually highlighted salient content. These highlights are crowd-sourced effectively without the need of expert annotators as required by the Pyramid method \citep{Nenkova2004} or to generate reference summaries. Our approach improves over the ``Correctness'' only measure for summarization by taking salience into account. Finally, the assessment of summaries against the document with  highlighted pertinent content facilitates an absolute evaluation of summaries with high inter-annotator agreement. 
+Our novel highlight-based reference-less evaluation does not suffer from reference bias as a summary is assessed against the source document with manually highlighted salient content. These highlights are crowd-sourced effectively without the need of expert annotators as required by the Pyramid method \citep{Nenkova2004a} or to generate reference summaries. Our approach improves over the ``Correctness'' or ``Fluency'' only measure for summarization by taking salience into account. Finally, the assessment of summaries against the document with  highlighted pertinent content facilitates an absolute evaluation of summaries with high inter-annotator agreement. 
 
 Our evaluation framework comprises three main components: document highlight annotation, highlight-based content evaluation, and 
-clarity and fluency evaluation. The second component, which evaluates the notions of ``Precision'' and ``Recall'' requires the highlights from the first one to be conducted. However, the highlight annotation needs to happen only once per document, and it can be reused to evaluate many system summaries, unlike the Pyramid approach \citep{Nenkova2004} that requires additional expert annotation for every system summary being evaluated. The third component is independent of the others and can be run in isolation. In all components we employ crowd-workers as human judges, and implement appropriate sanity checking mechanisms to ensure good quality judgements. Finally, we present an extended version of ROUGE \cite{Lin2004} that utilizes the highlights to evaluate system summaries against the document; this demonstrates another use of the highlights for summarization evaluation. 
+clarity and fluency evaluation. The second component, which evaluates the notions of ``Precision'' and ``Recall'' requires the highlights from the first one to be conducted. However, the highlight annotation needs to happen only once per document, and it can be reused to evaluate many system summaries, unlike the Pyramid approach \citep{Nenkova2004a} that requires additional expert annotation for every system summary being evaluated. The third component is independent of the others and can be run in isolation. In all components we employ crowd-workers as human judges, and implement appropriate sanity checking mechanisms to ensure good quality judgements. Finally, we present an extended version of ROUGE \cite{Lin2004} that utilizes the highlights to evaluate system summaries against the document; this demonstrates another use of the highlights for summarization evaluation. 
 
 % Our evaluation framework comprises three components: highlight annotation, highlight-based evaluation, and 
 % clarity and fluency evaluation. The second component, which evaluates the notions of ``Precision'' and ``Recall'' requires the highlights from the first one to be conducted. However, the highlight annotation needs to happen only once per document, and it can be reused to evaluate many system summaries, unlike the Pyramid approach \citep{Nenkova2004} that requires additional expert annotation for every system summary being evaluated. The third component is independent of the others and can be run in isolation. %No expert annotation is required in all parts.
@@ -294,7 +288,7 @@ we performed the same form of sanity check to the one in the highlight annotatio
 \subsection{Clarity and Fluency Evaluation}
 In this part, we give the judges only the summary and ask them to rate it on clarity and fluency. For {\em clarity}, each judge is asked whether the summary is easy to be understood, i.e.\ 
 there should be no difficulties in identifying the referents of the noun phrases (every noun/place/event should be well-specified) or understanding the meaning of the sentence. For {\em fluency}, each judge is asked whether the summary sounds natural and has no grammatical problems. % that makes the text difficult to read.
-While fluency is often evaluated in recent work, clarity, while first introduced in DUC evaluations, it has recently been ignored in manual evaluation, despite that it captures a different dimension of summarization quality.
+While fluency is often evaluated in recent work, clarity, while first introduced in DUC evaluations, has recently been ignored in manual evaluation, despite that it captures a different dimension of summarization quality.
 
 To ensure that the judgments for clarity and fluency are not affected by each other (poor fluency can affect clarity, but a summary can have perfect fluency but low clarity), % is no bias between clarity and fluency evaluation,
 we evaluate each metric separately. We ask the judges to evaluate multiple summaries per task with each dimension in its own screen. For sanity checking, we insert three fakes summary with different qualities (good, mediocre and bad summaries). We reject results that failed to pass this criteria: bad $<$ mediocre $<$ good.
@@ -322,19 +316,21 @@ The HROUGE scores for a summary $\mathcal{S}$ can then be defined as:
     \text{HR}_{\mathrm{rec}}^n &= \frac{\displaystyle\sum_{g \in n\operatorname{-gram}(\mathcal{S})} \beta_g^n\, \text{count}(g, \mathcal{D} \cap \mathcal{S})}{\displaystyle\sum_{g \in n\operatorname{-gram}(\mathcal{D})} \beta_g^n\,\text{count}(g, \mathcal{D})} \\
     \text{HR}_{\mathrm{pre}}^n &= \frac{\displaystyle\sum_{g \in n\operatorname{-gram}(\mathcal{S})} \beta_g^n\, \text{count}(g, \mathcal{D} \cap \mathcal{S})}{\displaystyle\sum_{g \in n\operatorname{-gram}(\mathcal{S})} \text{count}(g, \mathcal{S})}
 \end{align}
-\noindent $\text{HR}_{\mathrm{rec}}^n$ and $\text{HR}_{\mathrm{pre}}^n$ are the HROUGE recall and precision scores; $\text{count}(g, \mathcal{X})$ is the maximum number of $n$-gram $g$ occurring in the text $\mathcal{X}$. There is no weighting in the denominator of precision ($\beta_g^n = 1$) as by weighting it, any addition of junk words to the summary that doesn't appear in the highlight doesn't reduce the final precision. However, this would also limits the maximum precision to lower than 1 when there are multiple highlight annotations.
+\noindent $\text{HR}_{\mathrm{rec}}^n$ and $\text{HR}_{\mathrm{pre}}^n$ are the HROUGE recall and precision scores; $\text{count}(g, \mathcal{X})$ is the maximum number of $n$-gram $g$ occurring in the text $\mathcal{X}$. There is no weighting in the denominator of precision ($\beta_g^n = 1$) as if we weighted according to the highlights, words in the summary that are not highlighted in the original document would be ignored. This would result in $\text{HR}_{\mathrm{pre}}^n$ not penalizing summaries for containing words that are likely to be irrelevant as they do not appear in the highlights of the document.
+%, any addition of junk words to the summary that doesn't appear in the highlight doesn't reduce the final precision. However, this would also limits the maximum precision to lower than 1 when there are multiple highlight annotations.
+It is important to note \hrouge{} has an important limitation in that it penalizes abstractive summaries that do not reuse words from the original document. This is similar to \rouge{} penalizing summaries for not reusing words from the reference summaries, however the highlights implicitly consider multiple references.  %produced with lower annotation effort.
 
 \section{Summarization Dataset and Models}
 \label{sec:data-models}
 
-We use the extreme summarization dataset \citep[\xsum,][]{narayan18xsum} which comprises BBC articles paired with their single-sentence summaries, provided by the journalists writing the articles. The summary in the \xsum\ dataset demonstrates a larger number of novel $n$-grams compared to other popular datasets such as CNN/DailyMail or NY Times. This makes the dataset suitable for our experiment since the more abstractive nature of the summary renders automatic methods such as ROUGE less accurate as they rely on string matching, and thus calls for human evaluation for more accurate system comparisons. 
+We use the extreme summarization dataset \citep[\xsum,][]{narayan18xsum}\footnote{\url{https://github.com/EdinburghNLP/XSum}} which comprises BBC articles paired with their single-sentence summaries, provided by the journalists writing the articles. The summary in the \xsum\ dataset demonstrates a larger number of novel $n$-grams compared to other popular datasets such as CNN/DailyMail \citep{Hermann2015} or NY Times \citep{Sandhaus2008}. This makes the dataset suitable for our experiment since the more abstractive nature of the summary renders automatic methods such as ROUGE less accurate as they rely on string matching, and thus calls for human evaluation for more accurate system comparisons. 
 % This makes the dataset suitable for our experiment since we do not want the judges to be biased towards extractive methods which makes the process of assessment easier compared to the abstractive methods. In other words, we expect in an abstractive setting, the task of reading an article will be more laborious and prone to disagreement between judges.
 Following \citet{narayan18xsum}, we didn't use the whole test set portion, but sampled 50 articles from it for our highlight-based evaluation.  
 
 % We didn't use the whole test set portion for evaluation, but sampled 50 articles from it for our experiments with human evaluation, following \citet{narayan18xsum}.
 
 We assessed summaries from two state-of-the-art abstractive summarization systems using our highlight-based evaluation: (i) the Pointer-Generator model (\ptgen) introduced by \citet{See2017} is an RNN-based abstractive systems which allows to copy words from the source text, and (ii) the Topic-aware Convolutional Sequence to Sequence model (\tconv) introduced by \citet{narayan18xsum} is an   abstractive model which is conditioned on the article's topics and based entirely on Convolutional Neural Networks.
-We used the pre-trained models\footnote{Both models were trained using the standard cross-entropy loss to maximize the likelihood of the reference summary given the document.} provided by the authors to obtain summaries from both systems for the documents in our test set.\footnote{\url{https://github.com/EdinburghNLP/XSum}}
+We used the pre-trained models\footnote{Both models were trained using the standard cross-entropy loss to maximize the likelihood of the reference summary given the document.} provided by the authors to obtain summaries from both systems for the documents in our test set.
 
 % \footnote{\url{https://github.com/abisee/pointer-generator}} \citep{See2017}.
 
@@ -372,7 +368,7 @@ On average, the union of the highlights from 10 annotators covered 38.21\% per a
 
 % as we filter out judges that did not read the whole article through sanity checking.
 
-Using Fleiss Kappa \citep{Josep1971} on the binary labels provided by each judge on each word (highlighted or not) we obtained an average agreement of 0.19 for the 50 articles considered. Article with the highest agreement (cv of 0.32) has more focused highlights, whereas the article with a low agreement (cv of 0.44) has highlights spread all over (both articles can be seen in the supplementary materials). Interestingly, the reference summary on the highest agreement article appears to be more informative of its content for which the annotator agreement is high; the reference summary on the lowest agreement article is more indicative, i.e., it describes the document rather than directly presenting the information it contains. These results confirms that the annotation behaviour originates from the nature of the document and the summary it requires, and validates our highlight annotation setup.
+Using Fleiss Kappa \citep{Josep1971} on the binary labels provided by each judge on each word (highlighted or not) we obtained an average agreement of 0.19 for the 50 articles considered. Article with the highest agreement (0.32) has more focused highlights, whereas the article with the lowest agreement (0.04) has highlights spread all over (both articles can be seen in the supplementary materials). Interestingly, the reference summary on the highest agreement article appears to be more informative of its content for which the annotator agreement is high; the reference summary on the lowest agreement article is more indicative, i.e., it describes the document rather than directly presenting the information it contains. These results confirms that the annotation behaviour originates from the nature of the document and the summary it requires, and validates our highlight annotation setup.
 
 % Figure~\ref{image:heatmap_both} shows the document (left) with the highest agreement of 0.32 and the document (right) with the lowest agreement is 0.04. As can be seen, the document with a high agreement tends to have more focused highlights, wheres the document with a low agreement has highlights spread all over. The document on the right in Figure~\ref{image:heatmap_both} simply presents a match report from Premiership and Championship games, it is hard for annotators to agree on which game to highlight. Interestingly, the reference summary on the left appears to be more informative of its content for which the annotator agreement is high; the reference summary on the right is more indicative, i.e., it describes the document rather than directly presenting the information it contains. These results confirms that the annotation behaviour originates from the nature of the document and the summary it requires, and validates our highlight annotation setup.
 
@@ -497,7 +493,7 @@ We further measured the agreement among the judges using the coefficient of vari
 %\end{equation}
 Since, our sample size is  small (3 judgements per summary), we  use the unbiased version \citep{sokal1995biometry} as $cv = (1 + \frac{1}{4n})\frac{\sigma}{\bar{x}}$, where $\sigma$ is the standard deviation, $n$ is the number of sample, and $\bar{x}$ is the mean.
 
-We found that the highlight-based assessment in general has lower variation among judges than the non-highlight based or reference-based assessment. The assessment of \tconv\ summaries achieves 0.67 and 0.80 of $cv$ points which are 0.08 and 0.03 points below when they are assessed against documents with no highlights, respectively. We see a similar pattern in recall on the assessment of \ptgen\ summaries. Our results demonstrate that the highlight-based assessment of abstractive systems improve agreement among judges compared to when they are assessed against the documents without highlights or the reference summaries. The assessment of human-authored summaries does not seem to follow this trend, we report a mixed results (0.49 vs 0.48 for precision and 0.63 vs 0.67 for recall) when they are evaluated with and without the highlights.
+We found that the highlight-based assessment in general has lower variation among judges than the non-highlight based or reference-based assessment. The assessment of \tconv\ summaries achieves 0.67 and 0.80 of Precision and Recall $cv$ points which are 0.08 and 0.03 points below when they are assessed against documents with no highlights, respectively. We see a similar pattern in Recall on the assessment of \ptgen\ summaries. Our results demonstrate that the highlight-based assessment of abstractive systems improve agreement among judges compared to when they are assessed against the documents without highlights or the reference summaries. The assessment of human-authored summaries does not seem to follow this trend, we report a mixed results (0.49 vs 0.48 for precision and 0.63 vs 0.67 for recall) when they are evaluated with and without the highlights.
 
 % has 0.1 and 0.14 $cv$ points lower than the non highlight-based. We also noticed that the improvement of the mean and $cv$ in recall is higher than precision across all models which shows that our highlight approach helps the judges when looking for salient information in the article. Overall we conclude that our highlight-based evaluation has lower variation while improving the score of the models.
 
@@ -543,7 +539,7 @@ Reference              & 73.65    & 4.42    & 22.42    & 1.17      \\
 \hline
 \multicolumn{5}{c}{\hrouge\ (Highlights from the document)} \\
 \hline
-\tconv{}               &   \textbf{7.94}  &  5.42  & 3.3 &  2.11   \\
+\tconv{}               &   \textbf{7.94}  &  5.42  & 3.30 &  2.11   \\
 \ptgen{}                 & 7.90    & \textbf{6.46}      & \textbf{3.37}    & \textbf{2.64}     \\
 Reference              &  7.31  & 5.73   &  2.39  & 1.84   \\
 \hline
@@ -554,14 +550,13 @@ Reference              &  7.31  & 5.73   &  2.39  & 1.84   \\
 
 \subsection{Highlight-based \rouge{} Evaluation} 
 
-Table~\ref{table:rougeandhrougeresult} presents our \hrouge\ results assessing \tconv\ , \ptgen\  and Reference summaries with the highlights. To compare, we also report \hrouge\ results assessing these summaries against the original document without highlights. In the latter case, \hrouge\ becomes the standard \rouge\ metric with $\beta^n_g=1$ for all $n$-gram $g$. 
+Table~\ref{table:rougeandhrougeresult} presents our \hrouge\ results assessing \tconv\ , \ptgen\  and Reference summaries with the highlights. To compare, we also report \rouge\ results assessing these summaries against the original document without highlights. In the latter case, \hrouge\ becomes the standard \rouge\ metric with $\beta^n_g=1$ for all $n$-grams $g$. 
 
-Both \rouge{} and \hrouge{} favour methods favour methods copying content from the original document and penalizes abstractive methods, thus is not surprising that \ptgen{} is superior to \tconv{}, as the former has an explicit copy mechanism. The fact that \ptgen{} is better in terms of \hrouge{} is also evidence that the copying done by \ptgen{} selects salient content, thus confirming that the copying mechanism works as intended. 
-When comparing the reference summaries against the original document, \rouge{} confirms that they are rather abstractive as reported by \citet{narayan18xsum}, and they in fact score below the system summaries. 
-
+Both \rouge{} and \hrouge{} favour method of copying content from the original document and penalizes abstractive methods, thus it is not surprising that \ptgen{} is superior to \tconv{}, as the former has an explicit copy mechanism. The fact that \ptgen{} is better in terms of \hrouge{} is also an evidence that the copying done by \ptgen{} selects salient content, thus confirming that the copying mechanism works as intended. 
+When comparing the reference summaries against the original documents, both \rouge{} and \hrouge{} confirm that the reference summaries are rather abstractive as reported by \citet{narayan18xsum}, and they in fact score below the system summaries. 
 % However, when comparing them against the original document \hrouge{} which only considers salient content according to the highlights, the precision for the reference summaries increases in relative terms compared to \rouge{} more for the reference summaries than for the two systems, thus confirming that the highlights (and consequently \hrouge{}) indicate salient content. 
-
-Recall scores are very low in all cases which is expected, since the 10 highlights obtained per document, taken together, are much longer than any of the summaries considered. We also noted for how the average length of the summary (\ptgen{} = 22.57, \tconv{} = 20.22, and reference = 23.26 words) affects precision. As the reference has the longest average length, its precision is likely to be lower compared to the shorter summaries such as \tconv{} and \ptgen{}.
+Recall scores are very low in all cases which is expected, since the 10 highlights obtained per document or the documents themselves, taken together, are much longer than any of the summaries.
+%We also noted for how the average length of the summary (\ptgen{} = 22.57, \tconv{} = 20.22, and reference = 23.26 words) affects precision. As the reference has the longest average length, its precision is likely to be lower compared to the shorter summaries such as \tconv{} and \ptgen{}.
 
 %To our surprise, in both cases \hrouge\ reports a different ranking than what we observed with the highlight-based human evaluation. \ptgen\ summaries perform superior to \tconv\ and also to reference summaries, for both HR-1 and HR-2 F$_1$ scores. \tconv\ summaries outperformed reference summaries on HR-2 F$_1$ for both with and without highlights cases. We hypothesize that this ranking with \hrouge\ is attributed to the \hrouge's bias towards extractive methods as it is proportional to the $n$-gram overlaps between the summary and the input document (see Section~\ref{subsec:hrouge}). \ptgen\ with the copy mechanism is prone to copy from the source document, subsequently, \ptgen\ summaries are more extractive in nature than \tconv\ summaries and the reference summaries in the \xsum\ dataset are more abstractive than both \ptgen\ and \tconv\ summaries \citep{narayan18xsum}. The bias towards extractive approaches  in automatic evaluation  further strengthens a need for human assessment of abstractive summarization. Our proposal for highlight-based human evaluation also addresses the issue of reference bias which involves comparing summaries to a single reference summary.
 
@@ -599,9 +594,9 @@ Recall scores are very low in all cases which is expected, since the 10 highligh
 \end{figure}
 
 \paragraph{\highres{} eliminates reference bias.}
-The example presented in the Figure \ref{image:heatmap_small_2} demonstrates how our highlight-based evaluation eliminates reference bias in summarization evaluation. The summaries generated by \tconv\ and \ptgen\ are able to capture the essence of the document, however, there are phrases in these summaries that do not occur in the reference summary. A reference-based evaluation would fail to give a reasonable score to these system summaries. The \highres{} however, would enable the judges to better evaluate the summaries without any reference bias.
+The example presented in Figure \ref{image:heatmap_small_2} demonstrates how our highlight-based evaluation eliminates reference bias in summarization evaluation. The summaries generated by \tconv\ and \ptgen\ are able to capture the essence of the document, however, there are phrases in these summaries that do not occur in the reference summary. A reference-based evaluation would fail to give a reasonable score to these system summaries. The \highres{} however, would enable the judges to better evaluate the summaries without any reference bias.
 
-\paragraph{Fluency vs Clarity.} Example in Table~\ref{table:fluencyclarityexample} shows disagreements between fluency and clarity scores for different summaries of the same article. From the example, we can see that the \tconv{} summary is fluent but is not easily understood in the context of `the duration of resignation', while the \ptgen{} summary has word duplication which lower the fluency and also lacking clarity due several words are unclear. 
+\paragraph{Fluency vs Clarity.} Example in Table~\ref{table:fluencyclarityexample} shows disagreements between fluency and clarity scores for different summaries of the same article. From the example, we can see that the \tconv{} summary is fluent but is not easily understood in the context of `the duration of resignation', while the \ptgen{} summary has word duplication which lower the fluency and also lacking clarity due to several unclear words. 
 \begin{table}[t!]
 \small
 \begin{tabular}{p{1.5cm}|p{3.5cm}|p{0.7cm}p{0.7cm}}
@@ -621,12 +616,12 @@ The example presented in the Figure \ref{image:heatmap_small_2} demonstrates how
 % would fail to give a justified score to those models summary. The \highres{} however, would enable the judges to better evaluate the summaries without any reference bias.
 
 \section{Conclusion and Future Work}
-In this paper we introduced the \textsc{High}light-based \textsc{R}eference-less \textsc{E}valuation of document \textsc{S}ummarization (\highres) framework for manual evaluation.
+In this paper we introduced the \textsc{High}light-based \textsc{R}eference-less \textsc{E}valuation \textsc{S}ummarization (\highres) framework for manual evaluation.
 The proposed framework avoids reference  bias
 and provides absolute instead of ranked evaluation of the systems. Our experiments show that \highres{}  lowers the variability of the judges' content assessment, while helping expose the differences between systems. We also showed that by evaluating clarity we are able to capture a different dimension of summarization quality that is not captured by the commonly used fluency. 
 %while increasing the F$_1$ scores.
-We believe that our highlight-based evaluation is an ideal setup of abstractive summarization for four reasons: (i) highlights can be crowd sourced effectively without expert annotations, (ii) it avoids reference bias (iii) and it is not limited by n-gram overlap.
-In future work, we would like to extend our framework to other variants of summarization e.g.\  multi-document. Also, we will explore ways of automating parts of the process, e.g.\ the highlight annotation. Finally, the highlights could also be used as training signal, as it offers content saliency information at a finer level than the single references typically used.
+We believe that our highlight-based evaluation is an ideal setup of abstractive summarization for three reasons: (i) highlights can be crowd sourced effectively without expert annotations, (ii) it avoids reference bias and (iii) it is not limited by n-gram overlap.
+In future work, we would like to extend our framework to other variants of summarization e.g.\  multi-document. Also, we will explore ways of automating parts of the process, e.g.\ the highlight annotation. Finally, the highlights could also be used as training signal, as it offers content saliency information at a finer level than the single reference typically used.
 
 %\shashi{Highlights for content selection signal, during training}
 % \section*{Acknowledgments}
@@ -639,9 +634,11 @@ In future work, we would like to extend our framework to other variants of summa
 
 \onecolumn
 \newpage
-
+\setcounter{section}{0}
+\setcounter{figure}{0}
+\setcounter{table}{0}
 \section*{Supplementary Material}
-\subsection{Best and worst agreement articles}
+\section{Highest and lowest highlight annotation agreement articles}
 \begin{figure*}[h]
     \centering
     \begin{minipage}{.45\textwidth}
@@ -656,7 +653,7 @@ In future work, we would like to extend our framework to other variants of summa
   \label{image:heatmap_both}
 \end{figure*}
 \newpage
-\subsection{Overview of Manual Evaluations}
+\section{Overview of Manual Evaluations}
 \begin{table*}[h]
 \centering
 \small
@@ -669,58 +666,54 @@ In future work, we would like to extend our framework to other variants of summa
 \rotatebox[origin=l]{90}{\textbf{Fluency}} &
 \rotatebox[origin=l]{90}{\textbf{Clarity}} & \rotatebox[origin=l]{90}{\textbf{Recall}} & \rotatebox[origin=l]{90}{\textbf{Precision}} & \rotatebox[origin=l]{90}{\textbf{Absolute}} & \rotatebox[origin=l]{90}{\textbf{Relative}} & \rotatebox[origin=l]{90}{\textbf{With Reference}} & \rotatebox[origin=l]{90}{\textbf{With Document}} & \rotatebox[origin=l]{90}{\textbf{With Ref. \& Doc.}} \\
 \hline
-\cite{See2017}        &  $\checkmark$   &   &   &    &   &  &  &   &    &      &     &    &   \\
-\cite{Perrin2017}     &  $\checkmark$   &   &    &   &   &  &   &    &      &     &    &     &  \\
-\cite{Cohan2018a}     &  $\checkmark$   &   &    &   &  &  &   &    &      &     &    &     &  \\
-\cite{Liao2018a}      &  $\checkmark$   &   &    &   &  &  &   &    &      &     &    &    &  \\
-\cite{Kedzie2018}     &  $\checkmark$   &   &    &   &  &  &   &    &      &     &    &    & \\
-\cite{Amplayo2018a}   &  $\checkmark$   &   &    &   &  &  &   &    &      &    &     &    & \\
-\cite{Jadhav2018a}    &  $\checkmark$   &   &    &   &  &  &   &    &      &    &     &   &  \\
-\cite{Li2018c}        &  $\checkmark$   &   &    &   &  &  &   &      &     &    &     &    & \\
-\cite{Pasunuru2018a}  &  $\checkmark$   &   &    &   &  &  & &      &     &    &     &    & \\
-\cite{Cao2018a}       &  $\checkmark$   &   &    &   &  &    &    &      &     &    &     &    & \\
-\cite{Sakaue2018a}    &  $\checkmark$   &   &    &   &   &   &    &      &     &    &     &   & \\
+\citet{See2017}        &  $\checkmark$   &   &   &    &   &  &  &   &    &      &     &    &   \\
+\citet{Lin2018}     &  $\checkmark$   &   &    &   &   &  &   &    &      &     &    &     &  \\
+\citet{Cohan2018a}     &  $\checkmark$   &   &    &   &  &  &   &    &      &     &    &     &  \\
+\citet{Liao2018a}      &  $\checkmark$   &   &    &   &  &  &   &    &      &     &    &    &  \\
+\citet{Kedzie2018}     &  $\checkmark$   &   &    &   &  &  &   &    &      &     &    &    & \\
+\citet{Amplayo2018a}   &  $\checkmark$   &   &    &   &  &  &   &    &      &    &     &    & \\
+\citet{Jadhav2018}    &  $\checkmark$   &   &    &   &  &  &   &    &      &    &     &   &  \\
+\citet{li2018guiding}        &  $\checkmark$   &   &    &   &  &  &   &      &     &    &     &    & \\
+\citet{Pasunuru2018a}  &  $\checkmark$   &   &    &   &  &  & &      &     &    &     &    & \\
+\citet{Cao2018a}       &  $\checkmark$   &   &    &   &  &    &    &      &     &    &     &    & \\
+\citet{Sakaue2018a}    &  $\checkmark$   &   &    &   &   &   &    &      &     &    &     &   & \\
 \citet{Celikyilmaz2018}      &    &  &  &    &  &  &  $\checkmark$ &  $\checkmark$    &  $\checkmark$   &  $\checkmark$     &  $\checkmark$    &  $\checkmark$   & \\
 \citet{Chen2018a}     &   &   &  & $\checkmark$   & & &  $\checkmark$ &  $\checkmark$    &    &  $\checkmark$     &     &    &  $\checkmark$   \\
 
 \citet{Guo2018a}     &      &   &  &   &  $\checkmark$  & &  &  $\checkmark$    &    &  $\checkmark$     &     &    &  $\checkmark$  \\
-\citet{hardy2018sum}    &     &   &  &   & $\checkmark$  & &   &     & $\checkmark$  &      &     &    &   \\
+\citet{Hardy2018}    &     &   &  &   & $\checkmark$  & &   &     & $\checkmark$  &      &     &    &   \\
 \citet{Hsu2018}      &      &  &  &    &  $\checkmark$  & &  $\checkmark$ &  $\checkmark$    &  $\checkmark$   &      &     &  $\checkmark$   &  \\
 \citet{Krishna2018a}    &      &   &  &   &  &  &  $\checkmark$ &     &    &  $\checkmark$     &     &  $\checkmark$   &    \\
 \citet{Kryscinski2018}    &    &   &  &   &  $\checkmark$ & &  $\checkmark$ & &  $\checkmark$   &      &  & $\checkmark$ &   \\
-\citet{Li2018b}     &       &   &   & $\checkmark$ &  &  &   &     &  $\checkmark$   &      &     &     &    \\
+\citet{Li2018a}     &       &   &   & $\checkmark$ &  &  &   &     &  $\checkmark$   &      &     &     &    \\
 \citet{narayan-sidenet18}    &     & &   &    &  $\checkmark$ & &  &     &    & $\checkmark$ &  &  $\checkmark$   &    \\
 \citet{narayan18xsum}       &      &   &  $\checkmark$ &    &  $\checkmark$ &  &  $\checkmark$ &     &  $\checkmark$  &  $\checkmark$     &   $\checkmark$  &  $\checkmark$   &   \\
 \citet{Narayan2018}     &     &   & $\checkmark$ &   &  $\checkmark$  & &  $\checkmark$ &     &  $\checkmark$  &  $\checkmark$   &  $\checkmark$   &  $\checkmark$  &   \\
 \citet{Peyrard2018a}    &    &   &  &   &  &  &  $\checkmark$ &  $\checkmark$    &  $\checkmark$   &      &  $\checkmark$    &    &   \\
 \citet{ShafieiBavani2018}   &      &  $\checkmark$ &  &    &  &  &  &     &    &      &     &    &  \\
-\citet{Song2018a}      &    &   &  & $\checkmark$   &  $\checkmark$ &  &  $\checkmark$ &     &  $\checkmark$   &      &     &  $\checkmark$   & \\
-\citet{Yang2018a}      &    &  &  &    &  &  &  $\checkmark$ &     &    &  $\checkmark$     &  $\checkmark$    &    & \\
+\citet{Song2018}      &    &   &  & $\checkmark$   &  $\checkmark$ &  &  $\checkmark$ &     &  $\checkmark$   &      &     &  $\checkmark$   & \\
+\citet{Yang2017b}      &    &  &  &    &  &  &  $\checkmark$ &     &    &  $\checkmark$     &  $\checkmark$    &    & \\
 \highres\ (ours)    &   &   &  &   & $\checkmark$ & $\checkmark$ & $\checkmark$  &  $\checkmark$   & $\checkmark$  &      &     &  $\checkmark$  &   \\
 \hline
 \end{tabular}
-\caption{Overview of manual evaluations conducted in recent summarization systems. We categorize them in four dimensions: the first columns presents papers that do not report on human evvaluation; the second column identifies matrices used for evaluating content (``\textit{Pyramid}'', ``\textit{QA}'', ``\textit{Correctness}'', ``\textit{Recall}'' and ``\textit{Precision}'') and quality (``\textit{Clarity}'', ``\textit{Fluency}'') of summaries; the third column focuses if the system ranking reported by humans on content evaluation were ``\textit{Absolute}'' or ``\textit{Relative}''; and finally, the fourth column evaluates if summaries were evaluated against the input document (``\textit{With Document}''), the reference summary (``\textit{With Reference}'') or both (``\textit{With Ref. \& Doc.}'').}
-\label{tab:litreview}
+\caption{Overview of manual evaluations conducted in recent summarization systems. We categorize them in four dimensions: the first columns presents papers that do not report on human evaluation; the second column identifies matrices used for evaluating content (``\textit{Pyramid}'', ``\textit{QA}'', ``\textit{Correctness}'', ``\textit{Recall}'' and ``\textit{Precision}'') and quality (``\textit{Clarity}'', ``\textit{Fluency}'') of summaries; the third column focuses if the system ranking reported by humans on content evaluation were ``\textit{Absolute}'' or ``\textit{Relative}''; and finally, the fourth column evaluates if summaries were evaluated against the input document (``\textit{With Document}''), the reference summary (``\textit{With Reference}'') or both (``\textit{With Ref. \& Doc.}'').}
 \end{table*}
 \newpage
-\subsection{HighRES User Interface Screenshots}
+\section{HighRES User Interface Screenshots}
 \begin{figure}[h]
     \centering
     \fbox{\includegraphics[width=17cm]{annotation}}
     \caption{The UI for highlight annotation. Judges are given an article and asked to highlight words or phrases that are important in the article.}
-    \label{fig:my_label}
 \end{figure}
 \begin{figure}[h]
     \centering
     \fbox{\includegraphics[width=17cm]{annotation_sanity}}
     \caption{The sanity checking question at the end of the annotation task.}
-    \label{fig:my_label}
 \end{figure}
 \begin{figure}[h]
     \centering
     \fbox{\includegraphics[width=17cm]{highlight_evaluation}}
     \caption{The UI for content evaluation with highlight. Judges are given an article with important words highlighted using heat map. Judges can also remove less important highlight color by sliding the scroller at the left of the page. At the right of the page judges give the recall and precision assessment by sliding the scroller from 1 to 100 based on the given summary quality.}
-    \label{fig:my_label}
 \end{figure}
 \begin{figure}[h]
     \centering
@@ -732,20 +725,17 @@ In future work, we would like to extend our framework to other variants of summa
     \centering
     \fbox{\includegraphics[width=17cm]{ref_evaluation}}
     \caption{The UI for content evaluation using reference summary as comparison. At the right of the page judges give the recall and precision assessment by sliding the scroller from 1 to 100 based on the given summary quality.}
-    \label{fig:my_label}
 \end{figure}
 \newpage
 \begin{figure}[h]
     \centering
     \fbox{\includegraphics[width=17cm]{fluency}}
     \caption{The UI for fluency evaluation. Judges are given a number of summaries which can be switched by pressing the `Prev' or `Next' button. To give assessment, there is a scroller from 1 to 100.}
-    \label{fig:my_label}
 \end{figure}
 \begin{figure}[h]
     \centering
     \includegraphics[width=17cm]{clarity}
     \caption{The UI for clarity evaluation. Judges are given a number of summaries which can be switched by pressing the `Prev' or `Next' button. To give assessment, there is a scroller from 1 to 100.}
-    \label{fig:my_label}
 \end{figure}
 \end{document}
 
