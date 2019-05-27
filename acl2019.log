@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.4)  25 FEB 2019 13:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.4)  27 MAY 2019 11:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -183,11 +183,76 @@ Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count104
 )) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+) (/home/acp16hh/texmf/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen117
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+) (/home/acp16hh/texmf/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip47
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen118
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen119
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count105
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count106
+\leftroot@=\count107
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count108
+\DOTSCASE@=\count109
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen120
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count110
+\c@MaxMatrixCols=\count111
+\dotsspace@=\muskip11
+\c@parentequation=\count112
+\dspbrk@lvl=\count113
+\tag@help=\toks16
+\row@=\count114
+\column@=\count115
+\maxfields@=\count116
+\andhelp@=\toks17
+\eqnshift@=\dimen121
+\alignsep@=\dimen122
+\tagshift@=\dimen123
+\tagwidth@=\dimen124
+\totwidth@=\dimen125
+\lineht@=\dimen126
+\@envbody=\toks18
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count117
+\float@exts=\toks20
+\float@box=\box30
+\@float@everytoks=\toks21
+\@floatcapt=\box31
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
@@ -199,58 +264,119 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 )
-\Gin@req@height=\dimen117
-\Gin@req@width=\dimen118
+\Gin@req@height=\dimen127
+\Gin@req@width=\dimen128
+) (/usr/share/texlive/texmf-dist/tex/latex/tablefootnote/tablefootnote.sty
+Package: tablefootnote 2014/01/26 v1.1c Table foot notes (HMM)
+ (/home/acp16hh/texmf/tex/latex/xifthen/xifthen.sty
+Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count118
+\calc@Bcount=\count119
+\calc@Adimen=\dimen129
+\calc@Bdimen=\dimen130
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count120
+\calc@Cskip=\skip52
+) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (/home/acp16hh/texmf/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
+))) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/share/texlive/texmf-dist/tex/latex/autonum/autonum.sty
+Package: autonum 2015/01/18 v0.3.11 Automatic numbering of equations
+ (/usr/share/texlive/texmf-dist/tex/latex/etextools/etextools.sty
+Package: etextools 2010/12/07 v3.1415926 e-TeX more useful tools for LaTeX package writers
+ (/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 2016/08/01 v2.7 eTeX basic definition package (PEB,DPC)
+\et@xins=\count121
+)
+\ettl@fter=\count122
+\ettl@for@nested=\count277
+) (/usr/share/texlive/texmf-dist/tex/latex/textpos/textpos.sty
+Package: textpos 2016/06/07 v1.8
+
+Package: textpos 2016/06/07 1.8, absolute positioning of text on the page
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)
+\TP@textbox=\box32
+\TP@holdbox=\box33
+\TPHorizModule=\dimen131
+\TPVertModule=\dimen132
+\TP@margin=\dimen133
+\TP@absmargin=\dimen134
+
+Grid set 16 x 16 = 37.34424pt x 52.81541pt
+\TPboxrulesize=\dimen135
+\TP@ox=\dimen136
+\TP@oy=\dimen137
+\TP@tbargs=\toks22
+\TP@prevdepth=\dimen138
+TextBlockOrigin set to 0pt x 0pt
+)
+\c@autonum@counter=\count123
 ) (/home/acp16hh/Projects/Research/Experiments/Exp_Elly_Human_Evaluation/Paper/ACL-2019-Hardy-/acl2019.aux)
 \openout1 = `acl2019.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 49.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 74.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-\AtBeginShipoutBox=\box28
-Package hyperref Info: Link coloring ON on input line 49.
+\AtBeginShipoutBox=\box34
+Package hyperref Info: Link coloring ON on input line 74.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count105
+\c@section@level=\count124
 )
-LaTeX Info: Redefining \ref on input line 49.
-LaTeX Info: Redefining \pageref on input line 49.
-LaTeX Info: Redefining \nameref on input line 49.
+LaTeX Info: Redefining \ref on input line 74.
+LaTeX Info: Redefining \pageref on input line 74.
+LaTeX Info: Redefining \nameref on input line 74.
  (/home/acp16hh/Projects/Research/Experiments/Exp_Elly_Human_Evaluation/Paper/ACL-2019-Hardy-/acl2019.out) (/home/acp16hh/Projects/Research/Experiments/Exp_Elly_Human_Evaluation/Paper/ACL-2019-Hardy-/acl2019.out)
 \@outlinefile=\write3
 \openout3 = `acl2019.out'.
 
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count106
-\scratchdimen=\dimen119
-\scratchbox=\box29
-\nofMPsegments=\count107
-\nofMParguments=\count108
-\everyMPshowfont=\toks15
-\MPscratchCnt=\count109
-\MPscratchDim=\dimen120
-\MPnumerator=\count110
-\makeMPintoPDFobject=\count111
-\everyMPtoPDFconversion=\toks16
+\scratchcounter=\count125
+\scratchdimen=\dimen139
+\scratchbox=\box35
+\nofMPsegments=\count126
+\nofMParguments=\count127
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count128
+\MPscratchDim=\dimen140
+\MPnumerator=\count129
+\makeMPintoPDFobject=\count130
+\everyMPtoPDFconversion=\toks24
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -264,365 +390,359 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 50.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 50.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 50.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 50.
+ ABD: EveryShipout initializing macros
+\autonum@environmentWidth=\skip53
+LaTeX Font Info:    Try loading font information for U+lasy on input line 74.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
+LaTeX Font Info:    Try loading font information for U+msa on input line 74.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 74.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 75.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 75.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 73.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 75.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 75.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+<./image/heatmap_summ.png, id=18, 456.95718pt x 503.63156pt>
+File: ./image/heatmap_summ.png Graphic file (type png)
+<use ./image/heatmap_summ.png>
+Package pdftex.def Info: ./image/heatmap_summ.png  used on input line 103.
+(pdftex.def)             Requested size: 216.2411pt x 238.32835pt.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
-]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 76.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 76.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 76.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-Overfull \hbox (3.10477pt too wide) in paragraph at lines 87--94
-[][] 
- []
+ <./image/heatmap_summ.png>]
+Underfull \vbox (badness 6047) has occurred while \output is active []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 148.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 102.
-[2]
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 194.
+ [2]
+Underfull \vbox (badness 1314) has occurred while \output is active []
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 121.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 145.
+ [3]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 251.
 
 
-Overfull \hbox (5.26743pt too wide) in paragraph at lines 152--152
-[]\OT1/ptm/m/n/9 mean| 
+Package caption Warning: \label without proper reference on input line 283.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `image:highlightbasedevaluation' on page 4 undefined on input line 278.
+
+[4]
+<./image/highlight_evaluation.png, id=307, 1803.73875pt x 961.5925pt>
+File: ./image/highlight_evaluation.png Graphic file (type png)
+<use ./image/highlight_evaluation.png>
+Package pdftex.def Info: ./image/highlight_evaluation.png  used on input line 282.
+(pdftex.def)             Requested size: 441.01772pt x 235.10068pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 5908) has occurred while \output is active []
+
+ [5] [6 <./image/highlight_evaluation.png>]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+
+Overfull \hbox (5.94394pt too wide) in paragraph at lines 415--415
+[]\OT1/ptm/b/n/9 Prec| 
  []
 
 
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 152--152
-[]\OT1/ptm/m/n/9 67.90| 
+Overfull \hbox (5.94394pt too wide) in paragraph at lines 416--416
+[]\OT1/ptm/b/n/9 Prec| 
  []
 
 
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 152--152
-[]\OT1/ptm/m/n/9 56.83| 
+Overfull \hbox (3.10893pt too wide) in paragraph at lines 416--417
+[]\OT1/ptm/b/n/9 Rec| 
  []
 
 
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 152--152
-[]\OT1/ptm/m/n/9 55.25| 
+Overfull \hbox (5.94394pt too wide) in paragraph at lines 417--417
+[]\OT1/ptm/b/n/9 Prec| 
  []
 
 
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 152--152
-[]\OT1/ptm/m/n/9 66.01| 
+Overfull \hbox (3.10893pt too wide) in paragraph at lines 417--417
+[]\OT1/ptm/b/n/9 Rec| 
  []
 
 
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 152--152
-[]\OT1/ptm/m/n/9 52.45| 
- []
-
-
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 152--153
-[]\OT1/ptm/m/n/9 50.67| 
- []
-
-
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 153--153
-[]\OT1/ptm/m/n/9 25.36| 
- []
-
-
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 153--153
-[]\OT1/ptm/m/n/9 26.26| 
- []
-
-
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 153--153
-[]\OT1/ptm/m/n/9 25.43| 
- []
-
-
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 153--153
-[]\OT1/ptm/m/n/9 26.36| 
- []
-
-
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 153--153
-[]\OT1/ptm/m/n/9 29.18| 
- []
-
-
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 153--154
-[]\OT1/ptm/m/n/9 25.28| 
- []
-
-
-Overfull \hbox (5.26743pt too wide) in paragraph at lines 159--159
-[]\OT1/ptm/m/n/9 mean| 
- []
-
-
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 159--159
-[]\OT1/ptm/m/n/9 50.94| 
- []
-
-
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 159--159
-[]\OT1/ptm/m/n/9 44.41| 
- []
-
-
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 159--159
-[]\OT1/ptm/m/n/9 42.17| 
- []
-
-
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 159--159
-[]\OT1/ptm/m/n/9 48.57| 
- []
-
-
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 159--159
-[]\OT1/ptm/m/n/9 39.21| 
- []
-
-
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 159--160
-[]\OT1/ptm/m/n/9 37.80| 
- []
-
-
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 160--160
-[]\OT1/ptm/m/n/9 27.54| 
- []
-
-
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 160--160
-[]\OT1/ptm/m/n/9 30.68| 
- []
-
-
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 160--160
-[]\OT1/ptm/m/n/9 26.28| 
- []
-
-
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 160--160
-[]\OT1/ptm/m/n/9 27.31| 
- []
-
-
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 160--160
-[]\OT1/ptm/m/n/9 30.11| 
- []
-
-
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 160--161
-[]\OT1/ptm/m/n/9 26.84| 
- []
-
-
-Overfull \hbox (5.26743pt too wide) in paragraph at lines 166--166
-[]\OT1/ptm/m/n/9 mean| 
- []
-
-
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 166--166
+Overfull \hbox (8.86908pt too wide) in paragraph at lines 418--418
 []\OT1/ptm/m/n/9 57.42| 
  []
 
 
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 166--166
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 418--418
 []\OT1/ptm/m/n/9 49.95| 
  []
 
 
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 166--166
-[]\OT1/ptm/m/n/9 47.00| 
- []
-
-
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 166--166
+Overfull \hbox (8.86908pt too wide) in paragraph at lines 418--418
 []\OT1/ptm/m/n/9 52.55| 
  []
 
 
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 166--166
+Overfull \hbox (8.86908pt too wide) in paragraph at lines 418--418
 []\OT1/ptm/m/n/9 41.04| 
  []
 
 
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 166--167
-[]\OT1/ptm/m/n/9 39.25| 
+Overfull \hbox (8.86908pt too wide) in paragraph at lines 418--418
+[]\OT1/ptm/m/n/9 46.75| 
  []
 
 
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 167--167
-[]\OT1/ptm/m/n/9 29.63| 
+Overfull \hbox (8.86908pt too wide) in paragraph at lines 418--419
+[]\OT1/ptm/m/n/9 36.45| 
  []
 
 
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 167--167
-[]\OT1/ptm/m/n/9 31.23| 
+Overfull \hbox (8.86908pt too wide) in paragraph at lines 419--419
+[]\OT1/ptm/m/n/9 50.94| 
  []
 
 
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 167--167
-[]\OT1/ptm/m/n/9 26.91| 
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 419--419
+[]\OT1/ptm/m/n/9 44.41| 
  []
 
 
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 167--167
-[]\OT1/ptm/m/n/9 27.45| 
+Overfull \hbox (8.86908pt too wide) in paragraph at lines 419--419
+[]\OT1/ptm/m/n/9 48.57| 
  []
 
 
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 167--167
-[]\OT1/ptm/m/n/9 26.18| 
+Overfull \hbox (8.86908pt too wide) in paragraph at lines 419--419
+[]\OT1/ptm/m/n/9 39.21| 
  []
 
 
-Overfull \hbox (3.17818pt too wide) in paragraph at lines 167--168
-[]\OT1/ptm/m/n/9 24.38| 
+Overfull \hbox (8.86908pt too wide) in paragraph at lines 419--419
+[]\OT1/ptm/m/n/9 44.24| 
  []
 
-<./image/annotator.png, id=102, 462.528pt x 284.05252pt>
-File: ./image/annotator.png Graphic file (type png)
-<use ./image/annotator.png>
-Package pdftex.def Info: ./image/annotator.png  used on input line 184.
-(pdftex.def)             Requested size: 227.62204pt x 139.78941pt.
 
-Overfull \hbox (8.53592pt too wide) in paragraph at lines 184--185
+Overfull \hbox (8.86908pt too wide) in paragraph at lines 419--420
+[]\OT1/ptm/m/n/9 38.24| 
+ []
+
+
+Overfull \hbox (8.86908pt too wide) in paragraph at lines 420--420
+[]\OT1/ptm/m/n/9 67.90| 
+ []
+
+
+Overfull \hbox (3.17818pt too wide) in paragraph at lines 420--420
+[]\OT1/ptm/m/n/9 56.83| 
+ []
+
+
+Overfull \hbox (8.86908pt too wide) in paragraph at lines 420--420
+[]\OT1/ptm/m/n/9 66.01| 
+ []
+
+
+Overfull \hbox (8.86908pt too wide) in paragraph at lines 420--420
+[]\OT1/ptm/m/n/9 52.45| 
+ []
+
+
+Overfull \hbox (3.38257pt too wide) in paragraph at lines 431--444
 [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[3]
-Overfull \hbox (1.04004pt too wide) in paragraph at lines 200--200
-[]\OT1/ptm/m/n/9 Guided-
+[7]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 554.
+<./image/heatmap_summ_small_2.png, id=383, 456.95718pt x 423.08063pt>
+File: ./image/heatmap_summ_small_2.png Graphic file (type png)
+<use ./image/heatmap_summ_small_2.png>
+Package pdftex.def Info: ./image/heatmap_summ_small_2.png  used on input line 594.
+(pdftex.def)             Requested size: 216.2411pt x 200.21007pt.
+ [8 <./image/heatmap_summ_small_2.png>]
+Overfull \hbox (10.5838pt too wide) in paragraph at lines 607--607
+[]\OT1/ptm/b/n/9 Fluency| 
  []
 
 
-Overfull \hbox (7.04308pt too wide) in paragraph at lines 200--200
-\OT1/ptm/m/n/9 Unguided| 
+Overfull \hbox (7.57785pt too wide) in paragraph at lines 607--608
+[]\OT1/ptm/b/n/9 Clarity| 
  []
 
 
-Overfull \hbox (1.04004pt too wide) in paragraph at lines 205--205
-[]\OT1/ptm/m/n/9 Guided-
+Overfull \hbox (2.50935pt too wide) in paragraph at lines 609--609
+[]\OT1/ptm/m/sc/9 TConvS2S| 
  []
 
 
-Overfull \hbox (7.04308pt too wide) in paragraph at lines 205--205
-\OT1/ptm/m/n/9 Unguided| 
+Overfull \hbox (11.01132pt too wide) in paragraph at lines 605--614
+[][] 
  []
 
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+(/home/acp16hh/Projects/Research/Experiments/Exp_Elly_Human_Evaluation/Paper/ACL-2019-Hardy-/acl2019.bbl [9] [10]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 282.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 282.
+ [11]) [12
 
-Overfull \hbox (1.04004pt too wide) in paragraph at lines 248--248
-[]\OT1/ptm/m/n/9 Guided-
+]pdfTeX warning (ext4): destination with the same identifier (name{section.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.657 ... highlight annotation agreement articles}
+                                                  
+<./image/heatmap_best.png, id=511, 456.95718pt x 544.28343pt>
+File: ./image/heatmap_best.png Graphic file (type png)
+<use ./image/heatmap_best.png>
+Package pdftex.def Info: ./image/heatmap_best.png  used on input line 662.
+(pdftex.def)             Requested size: 167.20982pt x 199.16928pt.
+<./image/heatmap_negative.png, id=512, 456.95718pt x 478.03593pt>
+File: ./image/heatmap_negative.png Graphic file (type png)
+<use ./image/heatmap_negative.png>
+Package pdftex.def Info: ./image/heatmap_negative.png  used on input line 666.
+(pdftex.def)             Requested size: 176.78319pt x 184.9429pt.
+ [13
+
+ <./image/heatmap_best.png> <./image/heatmap_negative.png>]pdfTeX warning (ext4): destination with the same identifier (name{section.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.672 \section{Overview of Manual Evaluations}
+                                               [14]pdfTeX warning (ext4): destination with the same identifier (name{section.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.718 \section{HighRES User Interface Screenshots}
+                                                  
+<./image/annotation.png, id=580, 1819.79875pt x 1078.0275pt>
+File: ./image/annotation.png Graphic file (type png)
+<use ./image/annotation.png>
+Package pdftex.def Info: ./image/annotation.png  used on input line 721.
+(pdftex.def)             Requested size: 483.69684pt x 286.5313pt.
+
+Overfull \hbox (35.25275pt too wide) in paragraph at lines 721--722
+ [][] 
+ []
+
+<./image/annotation_sanity.png, id=581, 1206.5075pt x 265.99374pt>
+File: ./image/annotation_sanity.png Graphic file (type png)
+<use ./image/annotation_sanity.png>
+Package pdftex.def Info: ./image/annotation_sanity.png  used on input line 726.
+(pdftex.def)             Requested size: 483.69684pt x 106.63507pt.
+
+Overfull \hbox (35.25275pt too wide) in paragraph at lines 726--727
+ [][] 
+ []
+
+<./image/non_highlight_evaluation.png, id=582, 1826.825pt x 1449.415pt>
+File: ./image/non_highlight_evaluation.png Graphic file (type png)
+<use ./image/non_highlight_evaluation.png>
+Package pdftex.def Info: ./image/non_highlight_evaluation.png  used on input line 732.
+(pdftex.def)             Requested size: 483.69684pt x 383.7614pt.
+
+Overfull \hbox (35.25275pt too wide) in paragraph at lines 732--733
+ [][] 
  []
 
 
-Overfull \hbox (7.04308pt too wide) in paragraph at lines 248--248
-\OT1/ptm/m/n/9 Unguided| 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./image/ref_evaluation.png, id=583, 1915.155pt x 941.5175pt>
+File: ./image/ref_evaluation.png Graphic file (type png)
+<use ./image/ref_evaluation.png>
+Package pdftex.def Info: ./image/ref_evaluation.png  used on input line 738.
+(pdftex.def)             Requested size: 483.69684pt x 237.79234pt.
+
+Overfull \hbox (35.25275pt too wide) in paragraph at lines 738--739
+ [][] 
  []
 
 
-Overfull \hbox (1.04004pt too wide) in paragraph at lines 253--253
-[]\OT1/ptm/m/n/9 Guided-
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15 <./image/annotation.png> <./image/annotation_sanity.png>]
+<./image/fluency.png, id=592, 1915.155pt x 941.5175pt>
+File: ./image/fluency.png Graphic file (type png)
+<use ./image/fluency.png>
+Package pdftex.def Info: ./image/fluency.png  used on input line 744.
+(pdftex.def)             Requested size: 483.69684pt x 237.79234pt.
+
+Overfull \hbox (35.25275pt too wide) in paragraph at lines 744--745
+ [][] 
  []
 
 
-Overfull \hbox (7.04308pt too wide) in paragraph at lines 253--253
-\OT1/ptm/m/n/9 Unguided| 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./image/clarity.png, id=593, 1915.155pt x 941.5175pt>
+File: ./image/clarity.png Graphic file (type png)
+<use ./image/clarity.png>
+Package pdftex.def Info: ./image/clarity.png  used on input line 749.
+(pdftex.def)             Requested size: 483.69684pt x 237.79234pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 749--750
+ [][] 
  []
 
-[4 <./image/annotator.png (PNG copy)>] (/home/acp16hh/Projects/Research/Experiments/Exp_Elly_Human_Evaluation/Paper/ACL-2019-Hardy-/acl2019.bbl) [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 305.
- [6
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 305.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 752.
+[16 <./image/non_highlight_evaluation.png>] [17 <./image/ref_evaluation.png> <./image/fluency.png>] [18 <./image/clarity.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 752.
  (/home/acp16hh/Projects/Research/Experiments/Exp_Elly_Human_Evaluation/Paper/ACL-2019-Hardy-/acl2019.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 305.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 305.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 752.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 752.
 Package rerunfilecheck Info: File `acl2019.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 305.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 752.
  )
 (\end occurred when \iffalse on line 351 was incomplete) 
 Here is how much of TeX's memory you used:
- 7472 strings out of 492982
- 112723 string characters out of 6134897
- 221393 words of memory out of 5000000
- 10904 multiletter control sequences out of 15000+600000
- 28703 words of font info for 63 fonts, out of 8000000 for 9000
+ 9540 strings out of 492982
+ 142304 string characters out of 6134897
+ 263741 words of memory out of 5000000
+ 12801 multiletter control sequences out of 15000+600000
+ 49326 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,12n,40p,1102b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/acp16hh/Projects/Research/Experiments/Exp_Elly_Human_Evaluation/Paper/ACL-2019-Hardy-/acl2019.pdf (6 pages, 168291 bytes).
+ 43i,15n,40p,1340b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /home/acp16hh/Projects/Research/Experiments/Exp_Elly_Human_Evaluation/Paper/ACL-2019-Hardy-/acl2019.pdf (18 pages, 1493061 bytes).
 PDF statistics:
- 277 PDF objects out of 1000 (max. 8388607)
- 254 compressed objects within 3 object streams
- 59 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 690 PDF objects out of 1000 (max. 8388607)
+ 626 compressed objects within 7 object streams
+ 116 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

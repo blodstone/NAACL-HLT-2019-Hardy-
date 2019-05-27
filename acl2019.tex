@@ -64,9 +64,8 @@
 \title{\highres: Highlight-based Reference-less Evaluation of Summarization}
 
 \author{Hardy$^1$, Shashi Narayan$^2$, \textnormal{and} Andreas Vlachos$^3$ \\
-  Department of Computer Science, The University of Sheffield$^{1,3}$ \\
+  Department of Computer Science, The University of Sheffield$^{1}$ \\
   School of Informatics, University of Edinburgh$^{2}$\\
-  Google AI$^{2}$ \\
   Department of Computer Science and Technology, University of Cambridge$^{3}$ \\
   \texttt{hhardy2@sheffield.ac.uk}$^1$, \texttt{shashi.narayan@gmail.com}$^2$, \\ \texttt{av308@cam.ac.uk}$^3$ \\}
 
@@ -276,7 +275,15 @@ To ensure that each highlight is reliable, we performed a sanity check at the en
 %All highlight results are stored in json format to be used in later stage. 
 
 \subsection{Highlight-based Content Evaluation}
-In this component, we present human judges a document that has been highlighted using heatmap coloring and a summary to assess (see Figure~\ref{image:heatmap} for an example). We ask our judges to assess the summary for (i) \textit{`All important information is present in the summary'} and (ii) \textit{`Only important information is in the summary.'} The first one is the recall (content coverage) measure and the second, the precision (informativeness) measure. All the ratings were collected on a 1-100 Likert scale \citep{Likert1932}.
+In this component, we present human judges a document that has been highlighted using heatmap coloring and a summary to assess (see Figure~\ref{image:heatmap} for an example). We ask our judges to assess the summary for (i) \textit{`All important information is present in the summary'} and (ii) \textit{`Only important information is in the summary.'} The first one is the recall (content coverage) measure and the second, the precision (informativeness) measure. All the ratings were collected on a 1-100 Likert scale \citep{Likert1932}. Figure~\ref{image:highlightbasedevaluation} shows the screen that is presented to judges where salient parts of the document are highlighted.
+
+\begin{figure*}[h]
+    \centering
+    \fbox{\includegraphics[width=15.5cm]{highlight_evaluation}}
+    \label{image:highlightbasedevaluation}
+    \caption{The UI for content evaluation with highlight. Judges are given an article with important words highlighted using heat map. Judges can also remove less important highlight color by sliding the scroller at the left of the page. At the right of the page judges give the recall and precision assessment by sliding the scroller from 1 to 100 based on the given summary quality.}
+\end{figure*}
+
 As with the highlight annotation, %to ensure that each rating is reliable, 
 we performed the same form of sanity check to the one in the highlight annotation task.
 
@@ -719,11 +726,7 @@ number 688139). The latter is also supported by the EPSRC grant eNeMILP
     \fbox{\includegraphics[width=17cm]{annotation_sanity}}
     \caption{The sanity checking question at the end of the annotation task.}
 \end{figure}
-\begin{figure}[h]
-    \centering
-    \fbox{\includegraphics[width=17cm]{highlight_evaluation}}
-    \caption{The UI for content evaluation with highlight. Judges are given an article with important words highlighted using heat map. Judges can also remove less important highlight color by sliding the scroller at the left of the page. At the right of the page judges give the recall and precision assessment by sliding the scroller from 1 to 100 based on the given summary quality.}
-\end{figure}
+
 \begin{figure}[h]
     \centering
     \fbox{\includegraphics[width=17cm]{non_highlight_evaluation}}
