@@ -89,7 +89,7 @@ Research in automatic summarization has made headway over the years with single 
 \begin{figure}[t!]
     \centering
     \includegraphics[width=7.6cm]{heatmap_summ}
-    \caption{Highlight-based evaluation of summaries. Annotators to evaluate a summary (bottom) against the highlighted source document (top) presented with a heat map marking the salient content in the document; the darker the colour, the more annotators deemed the highlighted text salient.
+    \caption{Highlight-based evaluation of a summary. Annotators to evaluate a summary (bottom) against the highlighted source document (top) presented with a heat map marking the salient content in the document; the darker the colour, the more annotators deemed the highlighted text salient.
     }
   \label{image:heatmap}
 \end{figure}
@@ -238,7 +238,7 @@ Given a document $\mathcal{D}$ as a sequence of $m$ tokens $\{w_1, \ldots, w_m\}
 \begin{equation}
     \beta_g^n = \frac{\displaystyle\sum_{i=1}^{m-(n-1)} \Bigg[\frac{\sum_{j=i}^{i+n-1} \frac{\mathrm{NumH}(w_j)}{\mathcal{N}}}{n}\Bigg]_{w_{i:i+n-1} == g}}{\displaystyle\sum_{i=1}^{m-(n-1)} [1]_{w_{i:i+n-1} == g} }
 \end{equation}
-\noindent where, $[x]_y$ is an indicator function which returns $x$ if $y$ is true and $0$, otherwise.  $\mathrm{NumH}(w_j) = \sum_{k=1}^{\mathcal{N}} \frac{\mathrm{len}(H_k)}{\mathcal{K}} [1]_{w_j \in H_k}$ is a function which returns the number of times word $w_j$ is highlighted by the annotators out of $\mathcal{N}$ times weighted by the lengths of their highlights; $H_k$ is the highlighted text by the $k$th annotator and  $\mathcal{K}$ is the maximum allowed length of the highlighted text (see Section~\ref{subsec:hannot}). $\mathrm{NumH}(w_j)$ gives less importance to  annotators with highlights with few words. In principle, if an $n$-gram is highlighted by every crowd-worker and the length of the highlight of each crowd-worker is $\mathcal{K}$, the $n$-gram $g$ will have a maximum weight of $\beta_g^n = 1$.
+\noindent where, $[x]_y$ is an indicator function which returns $x$ if $y$ is true and $0$, otherwise.  $\mathrm{NumH}(w_j) = \sum_{k=1}^{\mathcal{N}} \frac{\mathrm{len}(H_k)}{\mathcal{K}} [1]_{w_j \in H_k}$ is a function which returns the number of times word $w_j$ is highlighted by the annotators out of $\mathcal{N}$ times weighted by the lengths of their highlights; $H_k$ is the highlighted text by the $k$-th annotator and  $\mathcal{K}$ is the maximum allowed length of the highlighted text (see Section~\ref{subsec:hannot}). $\mathrm{NumH}(w_j)$ gives less importance to  annotators with highlights with few words. In principle, if an $n$-gram is highlighted by every crowd-worker and the length of the highlight of each crowd-worker is $\mathcal{K}$, the $n$-gram $g$ will have a maximum weight of $\beta_g^n = 1$.
 
 The HROUGE scores for a summary $\mathcal{S}$ can then be defined as:
 \begin{align}
@@ -267,7 +267,7 @@ We collected highlight annotations from 10 different participants for each of 50
 The resulting annotation exhibits a substantial amount of variance, confirming the intuition that different participants are not expected to agree entirely on what is salient in a document. 
 On average, the union of the highlights from 10 annotators covered 38.21\% per article and  33.77\% of the highlights occurred at the second half of the article. This shows that the judges did not focus only on the beginning of the documents but annotated all across the document.
 
-Using Fleiss Kappa \citep{Josep1971} on the binary labels provided by each judge on each word (highlighted or not) we obtained an average agreement of 0.19 for the 50 articles considered. The low agreement score does not indicate a poor annotation process necessarily; we argue that this is primarily due to the annotators having different opinions on which parts of an article are salient. The article with the highest agreement (0.32) has more focused highlights, whereas the article with the lowest agreement (0.04) has highlights spread all over (both articles can be seen in the supplementary materials). Interestingly, the reference summary on the highest agreement article appears to be more informative of its content when the annotator agreement is high; the reference summary on the lowest agreement article is more indicative, i.e., it doesn’t contain any informative content from the article but only to inform the reader about the article’s topic and scope. These results confirms that the annotation behaviour originates from the nature of the document and the summary it requires, and validates our highlight annotation setup.
+Using Fleiss Kappa \citep{Josep1971} on the binary labels provided by each judge on each word (highlighted or not) we obtained an average agreement of 0.19 for the 50 articles considered. The low agreement score does not indicate a poor annotation process necessarily; we argue that this is primarily due to the annotators having different opinions on which parts of an article are salient. The article with the highest agreement (0.32) has more focused highlights, whereas the article with the lowest agreement (0.04) has highlights spread all over (both articles can be seen in the supplementary materials). Interestingly, the reference summary on the highest agreement article appears to be more informative of its content when the annotator agreement is high; the reference summary on the lowest agreement article is more indicative, i.e., it does not contain any informative content from the article but only to inform the reader about the article's topic and scope. These results confirm that the annotation behaviour originates from the nature of the document and the summary it requires, and validates our highlight annotation setup.
 
 \begin{table}[t!]
 \small
@@ -410,14 +410,14 @@ In future work, we would like to extend our framework to other variants of summa
 \section*{Acknowledgments}
 
 Hardy would like to thank the Indonesian government that
-has sponsored the his studies through
+has sponsored his studies through
 the Indonesia Endowment Fund for Education
 (LPDP). Shashi Narayan and Andreas Vlachos were supported by the
 EU H2020 SUMMA project (grant agreement
 number 688139). The latter is also supported by the EPSRC grant eNeMILP
 (EP/R021643/1).
 
-\bibliography{acl2019}
+\bibliography{acl2019_bib}
 \bibliographystyle{acl_natbib}
 
 \onecolumn
@@ -476,9 +476,3 @@ number 688139). The latter is also supported by the EPSRC grant eNeMILP
     \caption{The UI for clarity evaluation. Judges are given a number of summaries which can be switched by pressing the `Prev' or `Next' button. To give assessment, there is a scroller from 1 to 100.}
 \end{figure}
 \end{document}
-
-highlights for content selection signal, training
-
--- negative example
-
--- bib fix
