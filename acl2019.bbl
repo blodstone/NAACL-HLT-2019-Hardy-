@@ -1,0 +1,413 @@
+\begin{thebibliography}{53}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Amplayo et~al.(2018)Amplayo, Lim, and Hwang}]{Amplayo2018a}
+Reinald~Kim Amplayo, Seonjae Lim, and Seung-Won Hwang. 2018.
+\newblock \href {https://doi.org/10.18653/v1/N18-1064} {{Entity Commonsense
+  Representation for Neural Abstractive Summarization}}.
+\newblock In \emph{Proceedings of the 2018 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 1 (Long Papers)}, pages 697--707.
+
+\bibitem[{Bojar et~al.(2017)Bojar, Chatterjee, Federmann, Graham, Haddow,
+  Huang, Huck, Koehn, Liu, Logacheva, Monz, Negri, Post, Rubino, Specia, and
+  Turchi}]{Bojar2017}
+Ond{\v{r}}ej Bojar, Rajen Chatterjee, Christian Federmann, Yvette Graham, Barry
+  Haddow, Shujian Huang, Matthias Huck, Philipp Koehn, Qun Liu, Varvara
+  Logacheva, Christof Monz, Matteo Negri, Matt Post, Raphael Rubino, Lucia
+  Specia, and Marco Turchi. 2017.
+\newblock {Findings of the 2017 Conference on Machine Translation (WMT17)}.
+\newblock In \emph{Proceedings of the Second Conference on Machine
+  Translation}, pages 169--214.
+
+\bibitem[{Bojar et~al.(2016)Bojar, Chatterjee, Federmann, Graham, Haddow, Huck,
+  {Jimeno Yepes}, Koehn, Logacheva, Monz, Negri, Neveol, Neves, Popel, Post,
+  Rubino, Scarton, Specia, Turchi, Verspoor, and Zampieri}]{Bojar2016}
+Ond{\v{r}}ej Bojar, Rajen Chatterjee, Christian Federmann, Yvette Graham, Barry
+  Haddow, Matthias Huck, Antonio {Jimeno Yepes}, Philipp Koehn, Varvara
+  Logacheva, Christof Monz, Matteo Negri, Aurelie Neveol, Mariana Neves, Martin
+  Popel, Matt Post, Raphael Rubino, Carolina Scarton, Lucia Specia, Marco
+  Turchi, Karin Verspoor, and Marcos Zampieri. 2016.
+\newblock \href {http://www.aclweb.org/anthology/W/W16/W16-2301} {{Findings of
+  the 2016 Conference on Machine Translation}}.
+\newblock In \emph{Proceedings of the First Conference on Machine Translation},
+  volume~2, pages 131--198.
+
+\bibitem[{Bojar et~al.(2011)Bojar, Ercegov{\v{c}}evi{\'{c}}, Popel, and
+  Zaidan}]{Bojar2011}
+Ond{\v{r}}ej Bojar, Milo{\v{s}} Ercegov{\v{c}}evi{\'{c}}, Martin Popel, and
+  Omar Zaidan. 2011.
+\newblock \href {http://www.aclweb.org/anthology/W11-2101} {{A Grain of Salt
+  for the WMT Manual Evaluation}}.
+\newblock In \emph{Proceedings of the Sixth Workshop on Statistical Machine
+  Translation}, pages 1--11.
+
+\bibitem[{Cao et~al.(2018)Cao, Li, Li, and Wei}]{Cao2018a}
+Ziqiang Cao, Wenjie Li, Sujian Li, and Furu Wei. 2018.
+\newblock \href {https://aclanthology.info/papers/P18-1015/p18-1015}
+  {{Retrieve, Rerank and Rewrite: Soft Template Based Neural Summarization}}.
+\newblock In \emph{Proceedings of the 56th Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, volume~1, pages
+  152--161.
+
+\bibitem[{Celikyilmaz et~al.(2018)Celikyilmaz, Bosselut, He, and
+  Choi}]{Celikyilmaz2018}
+Asli Celikyilmaz, Antoine Bosselut, Xiaodong He, and Yejin Choi. 2018.
+\newblock \href {https://doi.org/10.1016/0304-4165(86)90151-0} {Deep
+  communicating agents for abstractive summarization}.
+\newblock In \emph{Proceedings of the 2018 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 1 (Long Papers)}, pages 1662--1675.
+
+\bibitem[{Chen and Bansal(2018)}]{Chen2018a}
+Yen-Chun Chen and Mohit Bansal. 2018.
+\newblock \href {https://aclanthology.info/papers/P18-1063/p18-1063} {{Fast
+  Abstractive Summarization with Reinforce-Selected Sentence Rewriting}}.
+\newblock In \emph{Proceedings of the 56th Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, volume~1, pages
+  675--686.
+
+\bibitem[{Clarke and Lapata(2010)}]{Clarke2010}
+James Clarke and Mirella Lapata. 2010.
+\newblock \href {https://doi.org/10.1162/coli_a_00004} {{Discourse constraints
+  for document compression}}.
+\newblock \emph{Computational Linguistics}, 36(3):411--441.
+
+\bibitem[{Cohan et~al.(2018)Cohan, Dernoncourt, Kim, Bui, Kim, Chang, and
+  Goharian}]{Cohan2018a}
+Arman Cohan, Franck Dernoncourt, Doo~Soon Kim, Trung Bui, Seokhwan Kim, Walter
+  Chang, and Nazli Goharian. 2018.
+\newblock \href {https://github.com/acohan/long-summarization} {{A
+  Discourse-Aware Attention Model for Abstractive Summarization of Long
+  Documents}}.
+\newblock In \emph{Proceedings of the 2018 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 2 (Short Papers).}, pages 615--621.
+
+\bibitem[{Dang(2005)}]{dang2005overview}
+Hoa~Trang Dang. 2005.
+\newblock \href {https://doi.org/10.1.1.184.2425} {{Overview of DUC 2005}}.
+\newblock In \emph{Proceedings of the Document Understanding Conference},
+  volume 2005, pages 1--12.
+
+\bibitem[{Everitt(2006)}]{everitt2006cambridge}
+Brian~S Everitt. 2006.
+\newblock \emph{{The Cambridge Dictionary of Statistics}}.
+\newblock Cambridge University Press.
+
+\bibitem[{Fleiss(1971)}]{Josep1971}
+Joseph~L. Fleiss. 1971.
+\newblock {Measuring Nominal Scale Agreement Among Many Raters}.
+\newblock \emph{Psychological bulletin}, 76(5):378--382.
+
+\bibitem[{Fomicheva and Specia(2016)}]{fomicheva2016reference}
+Marina Fomicheva and Lucia Specia. 2016.
+\newblock {Reference bias in monolingual machine translation evaluation}.
+\newblock In \emph{Proceedings of the 54th Annual Meeting of the Association
+  for Computational Linguistics (Volume 2: Short Papers)}, volume~2, pages
+  77--82.
+
+\bibitem[{Grusky et~al.(2018)Grusky, Naaman, and Artzi}]{newsroom_N181065}
+Max Grusky, Mor Naaman, and Yoav Artzi. 2018.
+\newblock \href {http://aclweb.org/anthology/N18-1065} {{Newsroom: A Dataset of
+  1.3 Million Summaries with Diverse Extractive Strategies}}.
+\newblock In \emph{Proceedings of the 2018 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 1 (Long Papers)}, pages 708--719. Association for
+  Computational Linguistics.
+
+\bibitem[{Guo et~al.(2018)Guo, Pasunuru, and Bansal}]{Guo2018a}
+Han Guo, Ramakanth Pasunuru, and Mohit Bansal. 2018.
+\newblock \href {http://arxiv.org/abs/1805.11004} {{Soft Layer-Specific
+  Multi-Task Summarization with Entailment and Question Generation}}.
+\newblock In \emph{Proceedings of the 56th Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 687--697.
+
+\bibitem[{Hardy and Vlachos(2018)}]{Hardy2018}
+Hardy and Andreas Vlachos. 2018.
+\newblock \href {http://arxiv.org/abs/1808.09160} {{Guided Neural Language
+  Generation for Abstractive Summarization using Abstract Meaning
+  Representation}}.
+\newblock In \emph{Proceedings of the 2018 Conference on Empirical Methods in
+  Natural Language Processing}, pages 768--773.
+
+\bibitem[{Hermann et~al.(2015)Hermann, Ko{\v{c}}isk{\'{y}}, Grefenstette,
+  Espeholt, Kay, Suleyman, and Blunsom}]{Hermann2015}
+Karl~Moritz Hermann, Tom{\'{a}}{\v{s}} Ko{\v{c}}isk{\'{y}}, Edward
+  Grefenstette, Lasse Espeholt, Will Kay, Mustafa Suleyman, and Phil Blunsom.
+  2015.
+\newblock \href {https://doi.org/10.1109/72.410363} {{Teaching Machines to Read
+  and Comprehend}}.
+\newblock In \emph{Neural Information Processing Systems}, pages 1--14.
+
+\bibitem[{Hsu et~al.(2018)Hsu, Lin, Lee, Min, Tang, and Sun}]{Hsu2018}
+Wan-Ting Hsu, Chieh-Kai Lin, Ming-Ying Lee, Kerui Min, Jing Tang, and Min Sun.
+  2018.
+\newblock \href {https://aclanthology.info/papers/P18-1013/p18-1013} {{A
+  Unified Model for Extractive and Abstractive Summarization using
+  Inconsistency Loss}}.
+\newblock In \emph{Proceedings of the 56th Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, volume~1.
+
+\bibitem[{Jadhav and Rajan(2018)}]{Jadhav2018}
+Aishwarya Jadhav and Vaibhav Rajan. 2018.
+\newblock \href {https://aclanthology.info/papers/P18-1014/p18-1014}
+  {{Extractive Summarization with SWAP-NET: Sentences and Words from
+  Alternating Pointer Networks}}.
+\newblock In \emph{Proceedings of the 56th Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, volume~1, pages
+  142--151.
+
+\bibitem[{Kedzie et~al.(2018)Kedzie, McKeown, and {Daum{\'{e}}
+  III}}]{Kedzie2018}
+Chris Kedzie, Kathleen McKeown, and Hal {Daum{\'{e}} III}. 2018.
+\newblock \href {http://arxiv.org/abs/1810.12343v1} {{Content Selection in Deep
+  Learning Models of Summarization}}.
+\newblock In \emph{Proceedings of the 2018 Conference on Empirical Methods in
+  Natural Language Processing}, pages 1818--1828, Brussels, Belgium.
+  Association for Computational Linguistics.
+
+\bibitem[{Krishna and Srinivasan(2018)}]{Krishna2018a}
+Kundan Krishna and Balaji~Vasan Srinivasan. 2018.
+\newblock \href {https://doi.org/10.18653/v1/n18-1153} {{Generating
+  Topic-Oriented Summaries Using Neural Attention}}.
+\newblock In \emph{Proceedings of the 2018 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 1 (Long Papers)}, pages 1697--1705.
+
+\bibitem[{Kry{\'{s}}ci{\'{n}}ski et~al.(2018)Kry{\'{s}}ci{\'{n}}ski, Paulus,
+  Xiong, and Socher}]{Kryscinski2018}
+Wojciech Kry{\'{s}}ci{\'{n}}ski, Romain Paulus, Caiming Xiong, and Richard
+  Socher. 2018.
+\newblock \href {http://arxiv.org/abs/1808.07913} {{Improving Abstraction in
+  Text Summarization}}.
+\newblock In \emph{Proceedings of the 2018 Conference on Empirical Methods in
+  Natural Language Processing}, pages 1808--1817.
+
+\bibitem[{Li et~al.(2018{\natexlab{a}})Li, Xu, Li, and Gao}]{li2018guiding}
+Chenliang Li, Weiran Xu, Si~Li, and Sheng Gao. 2018{\natexlab{a}}.
+\newblock {Guiding Generation for Abstractive Text Summarization Based on Key
+  Information Guide Network}.
+\newblock In \emph{Proceedings of the 2018 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 2 (Short Papers)}, volume~2, pages 55--60.
+
+\bibitem[{Li et~al.(2018{\natexlab{b}})Li, Zhu, Zhang, and Zong}]{Li2018a}
+Haoran Li, Junnan Zhu, Jiajun Zhang, and Chengqing Zong. 2018{\natexlab{b}}.
+\newblock \href {https://aclanthology.info/papers/C18-1121/c18-1121} {{Ensure
+  the Correctness of the Summary: Incorporate Entailment Knowledge into
+  Abstractive Sentence Summarization}}.
+\newblock In \emph{Proceedings of the 27th International Conference on
+  Computational Linguistics}, pages 1430--1441.
+
+\bibitem[{Liao et~al.(2018)Liao, Lebanoff, and Liu}]{Liao2018a}
+Kexin Liao, Logan Lebanoff, and Fei Liu. 2018.
+\newblock \href {https://arxiv.org/pdf/1806.05655.pdf} {{Abstract Meaning
+  Representation for Multi-Document Summarization}}.
+\newblock In \emph{Proceedings of the 27th International Conference on
+  Computational Linguistics}, pages 1178--1190.
+
+\bibitem[{Likert(1932)}]{Likert1932}
+Rensis Likert. 1932.
+\newblock {A technique for the measurement of attitudes.}
+\newblock \emph{Archives of psychology}.
+
+\bibitem[{Lin(2004)}]{Lin2004}
+Chin-Yew Lin. 2004.
+\newblock \href
+  {papers2://publication/uuid/5DDA0BB8-E59F-44C1-88E6-2AD316DAEF85} {{Rouge: A
+  package for automatic evaluation of summaries}}.
+\newblock In \emph{Proceedings of the workshop on Text Summarization Branches
+  Out, Post-Conference Workshop of ACL 2004}, 1, pages 25--26.
+
+\bibitem[{Lin et~al.(2018)Lin, Ma, and Su}]{Lin2018}
+Junyang Lin, Shuming Ma, and Qi~Su. 2018.
+\newblock \href {https://doi.org/10.1111/jcpp.12768} {{Global Encoding for
+  Abstractive Summarization}}.
+\newblock In \emph{Proceedings of the 56th Annual Meeting of the Association
+  for Computational Linguistics (Volume 2: Short Papers)}, pages 163--169.
+
+\bibitem[{Louis and Nenkova(2013)}]{Louis2013}
+Annie Louis and Ani Nenkova. 2013.
+\newblock \href {https://doi.org/10.1162/COLI} {{Automatically Assessing
+  Machine Summary Content Without a Gold Standard}}.
+\newblock \emph{Computational Linguistics}, 39(2):267--300.
+
+\bibitem[{Louviere et~al.(2015)Louviere, Flynn, Fred, and
+  Marley}]{Louviere2015}
+Jordan~J Louviere, Terry~N Flynn, Anthony~Alfred Fred, and John Marley. 2015.
+\newblock \emph{{Best-worst scaling: Theory, methods and applications}}.
+\newblock Cambridge University Press.
+
+\bibitem[{Mendes et~al.(2019)Mendes, Narayan, Miranda, Marinho, Martins, and
+  Cohen}]{mendesetalnaacl19}
+Afonso Mendes, Shashi Narayan, Sebasti{\~{a}}o Miranda, Zita Marinho, Andr\'e
+  F.~T. Martins, and Shay~B. Cohen. 2019.
+\newblock Jointly extracting and compressing documents with summary state
+  representations.
+\newblock In \emph{Proceedings of the 2019 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies}, Minneapolis, US.
+
+\bibitem[{Narayan et~al.(2018{\natexlab{a}})Narayan, Cardenas,
+  Papasarantopoulos, Cohen, Lapata, Yu, and Chang}]{narayan-sidenet18}
+Shashi Narayan, Ronald Cardenas, Nikos Papasarantopoulos, Shay~B Cohen, Mirella
+  Lapata, Jiangsheng Yu, and Yi~Chang. 2018{\natexlab{a}}.
+\newblock {Document Modeling with External Attention for Sentence Extraction}.
+\newblock In \emph{Proceedings of the 56st Annual Meeting of the Association
+  for Computational Linguistics}, pages 2020--2030, Melbourne, Australia.
+
+\bibitem[{Narayan et~al.(2018{\natexlab{b}})Narayan, Cohen, and
+  Lapata}]{narayan18xsum}
+Shashi Narayan, Shay~B. Cohen, and Mirella Lapata. 2018{\natexlab{b}}.
+\newblock {Don't Give Me the Details, Just the Summary! Topic-aware
+  Convolutional Neural Networks for Extreme Summarization}.
+\newblock In \emph{Proceedings of the 2018 Conference on Empirical Methods in
+  Natural Language Processing}, pages 1797--1807.
+
+\bibitem[{Narayan et~al.(2018{\natexlab{c}})Narayan, Cohen, and
+  Lapata}]{Narayan2018}
+Shashi Narayan, Shay~B Cohen, and Mirella Lapata. 2018{\natexlab{c}}.
+\newblock \href {http://aclweb.org/anthology/N18-1158} {{Ranking Sentences for
+  Extractive Summarization with Reinforcement Learning}}.
+\newblock In \emph{Proceedings of the 2018 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 1 (Long Papers)}, volume~1, pages 1747--1759,
+  Stroudsburg, PA, USA. Association for Computational Linguistics.
+
+\bibitem[{Nenkova(2005)}]{Nenkova:2005:ATS}
+Ani Nenkova. 2005.
+\newblock {Automatic Text Summarization of Newswire: Lessons Learned from the
+  Document Understanding Conference}.
+\newblock In \emph{Proceedings of the 20th National Conference on Artificial
+  Intelligence - Volume 3}, pages 1436--1441.
+
+\bibitem[{Nenkova and Passonneau(2004)}]{Nenkova2004a}
+Ani Nenkova and Rebecca Passonneau. 2004.
+\newblock \href {http://www.isi.edu/
+  papers2://publication/uuid/DC675E84-0A45-48B7-A26C-F08B4B9398D3} {{Evaluating
+  Content Selection in Summarization: The Pyramid Method}}.
+\newblock In \emph{Proceedings of the Human Language Technology Conference of
+  the North American Chapter of the Association for Computational Linguistics:
+  HLT-NAACL 2004}, pages 145--152.
+
+\bibitem[{Novikova et~al.(2017)Novikova, Du{\v{s}}ek, Curry, and
+  Rieser}]{novikova2017we}
+Jekaterina Novikova, Ond{\v{r}}ej Du{\v{s}}ek, Amanda~Cercas Curry, and Verena
+  Rieser. 2017.
+\newblock {Why We Need New Evaluation Metrics for {\{}NLG{\}}}.
+\newblock In \emph{Proceedings of the 2017 Conference on Empirical Methods in
+  Natural Language Processing}, pages 2241--2252.
+
+\bibitem[{Pasunuru and Bansal(2018)}]{Pasunuru2018a}
+Ramakanth Pasunuru and Mohit Bansal. 2018.
+\newblock \href {https://doi.org/10.18653/v1/N18-2102} {{Multi-Reward
+  Reinforced Summarization with Saliency and Entailment}}.
+\newblock In \emph{Proceedings of the 2018 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 2 (Short Papers)}, pages 646--653.
+
+\bibitem[{Peyrard and Gurevych(2018)}]{Peyrard2018a}
+Maxime Peyrard and Iryna Gurevych. 2018.
+\newblock \href {https://doi.org/10.18653/v1/N18-2103} {{Objective Function
+  Learning to Match Human Judgements for Optimization-Based Summarization}}.
+\newblock In \emph{Proceedings of the 2018 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 2 (Short Papers)}, pages 654--660.
+
+\bibitem[{Robertson(1946)}]{Robertson1946}
+D.~W. Robertson. 1946.
+\newblock {A Note on the Classical Origin of " Circumstances " in the Medieval
+  Confessional}.
+\newblock \emph{Studies in Philology}, 43(1):6--14.
+
+\bibitem[{Sakaue et~al.(2018)Sakaue, Hirao, Nishino, and Nagata}]{Sakaue2018a}
+Shinsaku Sakaue, Tsutomu Hirao, Masaaki Nishino, and Masaaki Nagata. 2018.
+\newblock \href {https://doi.org/10.18653/v1/n18-1157} {{Provable Fast Greedy
+  Compressive Summarization with Any Monotone Submodular Function}}.
+\newblock In \emph{Proceedings of the 2018 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 1 (Long Papers)}, pages 1737--1746.
+
+\bibitem[{Sandhaus(2008)}]{Sandhaus2008}
+Evan Sandhaus. 2008.
+\newblock {The New York Times Annotated Corpus}.
+
+\bibitem[{Schluter(2017)}]{schluter:2017:EACLshort}
+Natalie Schluter. 2017.
+\newblock \href {https://aclanthology.info/papers/E17-2007/e17-2007} {{The
+  limits of automatic summarisation according to ROUGE}}.
+\newblock In \emph{Proceedings of the 15th Conference of the European Chapter
+  of the Association for Computational Linguistics: Volume 2, Short Papers},
+  volume~2, pages 41--45.
+
+\bibitem[{See et~al.(2017)See, Liu, and Manning}]{See2017}
+Abigail See, Peter~J. Liu, and Christopher~D. Manning. 2017.
+\newblock \href {https://doi.org/10.18653/v1/P17-1099} {Get to the point:
+  Summarization with pointer-generator networks}.
+\newblock In \emph{Proceedings of the 55th Annual Meeting of the ACL}, pages
+  1073--1083.
+
+\bibitem[{ShafieiBavani et~al.(2018)ShafieiBavani, Ebrahimi, Wong, and
+  Chen}]{ShafieiBavani2018}
+Elaheh ShafieiBavani, Mohammad Ebrahimi, Raymond Wong, and Fang Chen. 2018.
+\newblock \href {https://aclanthology.info/papers/C18-1077/c18-1077}
+  {{Summarization Evaluation in the Absence of Human Model Summaries Using the
+  Compositionality of Word Embeddings}}.
+\newblock In \emph{Proceedings of the 27th International Conference on
+  Computational Linguistics}, pages 905--914.
+
+\bibitem[{Sokal and Rohlf(1995)}]{sokal1995biometry}
+R~R Sokal and F~J Rohlf. 1995.
+\newblock \emph{{Biometry. 3rd ed}}.
+\newblock WH Freeman and Company.
+
+\bibitem[{Song et~al.(2018)Song, Zhao, and Liu}]{Song2018}
+Kaiqiang Song, Lin Zhao, and Fei Liu. 2018.
+\newblock \href {https://aclanthology.info/papers/C18-1146/c18-1146}
+  {{Structure-Infused Copy Mechanisms for Abstractive Summarization}}.
+\newblock In \emph{Proceedings of the 27th International Conference on
+  Computational Linguistics}, pages 1717--1729.
+
+\bibitem[{Tan et~al.(2017)Tan, Wan, and Xiao}]{Tan2017}
+Jiwei Tan, Xiaojun Wan, and Jianguo Xiao. 2017.
+\newblock \href {https://doi.org/10.18653/v1/P17-1108} {{Abstractive Document
+  Summarization with a Graph-Based Attentional Neural Model}}.
+\newblock In \emph{Proceedings of the 55th Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, volume~1, pages
+  1171--1181, Stroudsburg, PA, USA. Association for Computational Linguistics.
+
+\bibitem[{Teufel and Van~Halteren(2004)}]{teufel2004evaluating}
+Simone Teufel and Hans Van~Halteren. 2004.
+\newblock Evaluating information content by factoid analysis: Human annotation
+  and stability.
+\newblock In \emph{Proceedings of the 2004 Conference on Empirical Methods in
+  Natural Language Processing}, pages 419--426.
+
+\bibitem[{Thurstone(1994)}]{Thurstone1994}
+L~L Thurstone. 1994.
+\newblock {A Law of Comparative Judgment}.
+\newblock \emph{Psychological review}, 101(2):255--270.
+
+\bibitem[{Vlachos and Riedel(2014)}]{vlachos-riedel:2014:W14-25}
+Andreas Vlachos and Sebastian Riedel. 2014.
+\newblock \href {http://www.aclweb.org/anthology/W14-2508} {{Fact Checking:
+  Task definition and dataset construction}}.
+\newblock In \emph{Proceedings of the ACL 2014 Workshop on Language
+  Technologies and Computational Social Science}, pages 18--22, Baltimore, MD,
+  USA. Association for Computational Linguistics.
+
+\bibitem[{Woodworth and G(1991)}]{Woodworth1991}
+Jordan J~Louviere Woodworth and George G. 1991.
+\newblock {Best-worst scaling: A model for the largest difference judgments.}
+\newblock \emph{University of Alberta: Working Paper}.
+
+\bibitem[{Yang et~al.(2017)Yang, Bao, and Nenkova}]{Yang2017b}
+Yinfei Yang, Forrest~Sheng Bao, and Ani Nenkova. 2017.
+\newblock \href {http://arxiv.org/abs/1702.07998} {{Detecting (Un)Important
+  Content for Single-Document News Summarization}}.
+\newblock In \emph{Proceedings of the 15th Conference of the European Chapter
+  of the Association for Computational Linguistics: Volume 2, Short Papers},
+  volume~2, pages 707--712.
+
+\end{thebibliography}
